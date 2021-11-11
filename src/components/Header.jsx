@@ -12,9 +12,12 @@ const Header = () => {
       </section>
       <section>
         <p>poli.ernesto95@gmail.com</p>
+        <p>contact info and stuff</p>
+        <p>contact info and stuff</p>
+        <p>contact info and stuff</p>
       </section>
     </div>
-    <img src={'https://i.imgur.com/2oKnRZ5.png'} />
+    <img src={'https://i.imgur.com/2oKnRZ5.png'} alt="Ernesto"/>
     </>
   );
 }
