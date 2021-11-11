@@ -6,13 +6,16 @@ import {
 } from "react-router-dom";
 
 import Home from "../containers/Home"
+import NotFound from "../containers/NotFound"
+
 
 
 const App = () => {
 return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<Home/>} />
+        <Route exact={true} path="/" element={<Home/>} />
+        <Route exact={true} path="*" element={<NotFound/>} />
       </Routes>
     </Router>
 );}
