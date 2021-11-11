@@ -1,5 +1,7 @@
 import React from 'react';
 
+import ContactInfo from './ContactInfo.jsx'
+
 
 const Header = () => {
   return (
@@ -11,6 +13,7 @@ const Header = () => {
         <p>Mechatronics Engineering</p>
       </section>
       <section>
+        <ContactInfo tel={'5518137358'}/> 
         <p>poli.ernesto95@gmail.com</p>
         <p>contact info and stuff</p>
         <p>contact info and stuff</p>
