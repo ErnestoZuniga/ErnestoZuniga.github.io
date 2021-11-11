@@ -21,6 +21,10 @@ const Header = () => {
       </section>
     </div>
     <img src={'https://i.imgur.com/2oKnRZ5.png'} alt="Ernesto"/>
+    <section>
+      <button> Eng </button>
+      <button> Esp </button>
+    </section>
     </>
   );
 }
