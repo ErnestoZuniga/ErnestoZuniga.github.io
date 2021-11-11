@@ -7,16 +7,19 @@ import {
 
 import Home from "../containers/Home"
 import NotFound from "../containers/NotFound"
+import Layout from "../components/Layout";
 
 
 
 const App = () => {
 return (
     <Router>
-      <Routes>
-        <Route exact={true} path="/" element={<Home/>} />
-        <Route exact={true} path="*" element={<NotFound/>} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route exact={true} path="/" element={<Home/>} />
+          <Route exact={true} path="*" element={<NotFound/>} />
+        </Routes>
+      </Layout>
     </Router>
 );}
 
