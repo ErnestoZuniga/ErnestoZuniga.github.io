@@ -4,6 +4,16 @@ import ContactInfo from './ContactInfo.jsx'
 
 
 const Header = () => {
+  const styles= {
+    'contactinfo-container':{
+      display: 'flex',
+      flexDirection: 'row',
+      alignItems: 'stretch',
+      justifyContent: 'flex-start',
+      flexWrap: 'wrap'
+    }
+  }
+
   return (
     <>
     <div>
@@ -12,7 +22,7 @@ const Header = () => {
         <p>Front End Developer</p>
         <p>Mechatronics Engineering</p>
       </section>
-      <section>
+      <section style={styles['contactinfo-container']}>
         <ContactInfo tel={'5518137358'}/> 
         <ContactInfo email={'poli.ernesto95@gmail.com'} /> 
         <ContactInfo addres={'Gustavo A. Madero, CDMX'}/> 
