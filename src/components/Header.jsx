@@ -14,10 +14,12 @@ const Header = () => {
       </section>
       <section>
         <ContactInfo tel={'5518137358'}/> 
-        <p>poli.ernesto95@gmail.com</p>
-        <p>contact info and stuff</p>
-        <p>contact info and stuff</p>
-        <p>contact info and stuff</p>
+        <ContactInfo email={'poli.ernesto95@gmail.com'} /> 
+        <ContactInfo addres={'Gustavo A. Madero, CDMX'}/> 
+        <ContactInfo facebook={'facebook.com/Kamewalker'}/> 
+        <ContactInfo twitter={'@Kamewalker_Tr'}/>
+        <ContactInfo github={'github.com/ErnestoZuniga'}/>  
+        <ContactInfo github={'linkedin.com/in'}/>  
       </section>
     </div>
     <img src={'https://i.imgur.com/2oKnRZ5.png'} alt="Ernesto"/>
