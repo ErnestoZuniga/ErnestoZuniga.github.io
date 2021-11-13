@@ -16,8 +16,8 @@ const Header = () => {
       flexGrow: '1'
     },
     'img-container':{
-      width:'1%',
-      height:'1%'
+      width:'5rem',
+      height:'5rem'
     }
   }
 
