@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import ContactInfo from './ContactInfo.jsx'
 
@@ -7,13 +6,18 @@ import ContactInfo from './ContactInfo.jsx'
 const Header = () => {
   const styles= {
     'header-container':{
+      width:'100vw',
+      height:'30vh'
     },
     'contactinfo-container':{
       display: 'flex',
-      flexDirection: 'row',
-      alignItems: 'stretch',
-      justifyContent: 'flex-start',
-      flexWrap: 'wrap',
+      flexWrap:'wrap',
+      justifyContent: 'space-around',
+      flexGrow: '1'
+    },
+    'img-container':{
+      width:'1%',
+      height:'1%'
     }
   }
 
@@ -36,7 +40,7 @@ const Header = () => {
         <ContactInfo linkedin={'linkedin'}/>  
       </section>
     </div>
-    <img src={'https://i.imgur.com/2oKnRZ5.png'} alt="Ernesto"/>
+    <img style={styles['img-container']} src={'https://i.imgur.com/2oKnRZ5.png'} alt="Ernesto"/>
     <section>
       <button> Eng </button>
       <button> Esp </button>
