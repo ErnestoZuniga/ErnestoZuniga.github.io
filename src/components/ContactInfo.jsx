@@ -1,4 +1,5 @@
 import React from 'react';
+
 import * as BtIcons from 'react-icons/bs';
 
 //import icons from '../assets/statics/icons'
@@ -8,13 +9,19 @@ const ContactInfo = (props) => {
     main: {
       display: 'flex',
       flexDirection: 'row',
-      alignItems: 'center'
+      alignItems: 'center',
+      cursor: 'pointer'
     }
   }
 
   const isElementinObject = (object, element) => (
     Object.keys(object).find(item => item === element) === element ?  true : false
   )
+
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }
 
   if(Object.keys(props).length !== 1 ){
     return(
@@ -27,14 +34,14 @@ const ContactInfo = (props) => {
       return(
         <div style={estilacho.main}> 
           <BtIcons.BsFillEnvelopeFill /> 
-          <p onClick={() => console.log('gatitos')}>{props.email}</p> 
+          <p>{props.email}</p> 
         </div> 
       );
     }
     if(isElementinObject(props, 'tel')) {
       return(
         <div style={estilacho.main}> 
-         <BtIcons.BsFillTelephoneFill /> <p>{props.tel}</p> 
+        <BtIcons.BsFillTelephoneFill /> <p>{props.tel}</p>
         </div> 
       );
     }
@@ -47,28 +54,28 @@ const ContactInfo = (props) => {
     }
     if(isElementinObject(props, 'facebook')) {
       return(
-        <div style={estilacho.main}> 
+        <div style={estilacho.main} onClick={() => openInNewTab('https://www.facebook.com/Kamewalker')}> 
          <BtIcons.BsFacebook /> <p>{props.facebook}</p> 
         </div> 
       );
     }
     if(isElementinObject(props, 'twitter')) {
       return(
-        <div style={estilacho.main}> 
+        <div style={estilacho.main} onClick={() => openInNewTab('https://twitter.com/Kamewalker_Tr')}> 
          <BtIcons.BsTwitter /> <p>{props.twitter}</p> 
         </div> 
       );
     }
     if(isElementinObject(props, 'github')){ 
       return(
-        <div style={estilacho.main}> 
+        <div style={estilacho.main} onClick={() => openInNewTab('https://github.com/ErnestoZuniga')}> 
          <BtIcons.BsGithub /> <p>{props.github}</p> 
         </div> 
       );
     }
     if(isElementinObject(props, 'linkedin')) {
       return(
-        <div style={estilacho.main}> 
+        <div style={estilacho.main}onClick={() => openInNewTab('https://www.linkedin.com/in/ernesto-zuñiga-ontiveros-8b80231b9')}> 
          <BtIcons.BsLinkedin /> <p>{props.linkedin}</p> 
         </div> 
       );
