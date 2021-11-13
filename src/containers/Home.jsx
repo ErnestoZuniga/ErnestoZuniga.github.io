@@ -1,25 +1,15 @@
 import React from 'react';
 import logo from '../assets/logo.svg'
-import '../assets/styles/App.css';
+//import '../assets/styles/App.css';
 
 const Home = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/containers/Home.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div>
+      <h2>Experiencia</h2>
+      <h2>Proyectos</h2>
     </div>
+    </>
   );
 }
 
