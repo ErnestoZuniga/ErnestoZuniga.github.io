@@ -5,7 +5,7 @@ import * as BsIcons from 'react-icons/bs';
 const Experience = (props) => {
   return(
     <div>
-      <h2>Experiencia</h2>
+      {props.title === true ? <h2>Experiencia</h2> : <></>}
       <h3>{props.position}</h3>
       <h4>{props.company}</h4>
       <section>
