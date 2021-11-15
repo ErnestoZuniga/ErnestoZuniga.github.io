@@ -5,7 +5,7 @@ import {
   Route,
 } from "react-router-dom";
 
-import Home from "../containers/Home"
+import FrontEnd from "../containers/FrontEnd"
 import NotFound from "../containers/NotFound"
 import Layout from "../components/Layout";
 
@@ -16,7 +16,7 @@ return (
     <Router>
       <Layout>
         <Switch>
-          <Route exact={true} path="/" element={<Home/>} />
+          <Route exact={true} path="/" element={<FrontEnd/>} />
           <Route exact={true} path="*" element={<NotFound/>} />
         </Switch>
       </Layout>
