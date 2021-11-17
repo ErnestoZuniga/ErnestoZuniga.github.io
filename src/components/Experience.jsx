@@ -23,7 +23,9 @@ const Experience = (props) => {
       </section>
       <div /*style lista*/ >
         <ul>
-          {props.activities.map( (activity) => <li>{activity}</li>)}
+          {props.activities.map( 
+            (activity) => <li key={activity}>{activity}</li>
+            )}
         </ul>
       </div>
     </div>

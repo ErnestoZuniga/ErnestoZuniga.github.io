@@ -12,7 +12,7 @@ import Layout from "../components/Layout";
 
 
 const App = () => {
-return (
+  return (
     <Router>
       <Layout>
         <Switch>
@@ -21,6 +21,7 @@ return (
         </Switch>
       </Layout>
     </Router>
-);}
+  );
+}
 
 export default App;
