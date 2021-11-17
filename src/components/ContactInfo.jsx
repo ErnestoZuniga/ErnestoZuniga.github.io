@@ -1,6 +1,7 @@
 import React from 'react';
 
 import * as BtIcons from 'react-icons/bs';
+import isElementinObject from '../services/isElementinObject';
 
 //import icons from '../assets/statics/icons'
 
@@ -13,10 +14,6 @@ const ContactInfo = (props) => {
       cursor: 'pointer'
     }
   }
-
-  const isElementinObject = (object, element) => (
-    Object.keys(object).find(item => item === element) === element ?  true : false
-  )
 
   const openInNewTab = (url) => {
     const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
