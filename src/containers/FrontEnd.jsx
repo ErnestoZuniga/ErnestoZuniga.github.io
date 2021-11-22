@@ -42,9 +42,9 @@ const Home = () => {
       title={'Hardskills'} 
       rate={1}
       ratedSkills={
-        [{'lenguage': 'Javascript', 'rate': 3},{'lenguage': 'Python', 'rate': 2.5}]
+        [{'ratedSkills': 'Javascript', 'rate': 3},{'ratedSkills': 'Python', 'rate': 2.5}]
       }
-      skills={['Node.js',]}
+      skills={['skill 1', 'skill 2', '...', 'Skill n']}
     />
   </div>
   );
