@@ -1,7 +1,7 @@
 import React from 'react';
-//import '../assets/styles/components/NotFound.css'
 
 const NotFound = () => {
+
   return (
     <section /*className="error"*/>
       <section /*className="error__container"*/>
