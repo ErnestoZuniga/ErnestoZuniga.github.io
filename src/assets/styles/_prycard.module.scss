@@ -1,0 +1,8 @@
+.prycard /*proyect component*/{
+    &__title {
+        @extend .expcard__title;
+    }
+    &__pry{
+        @extend .expcard__position;
+    }
+}

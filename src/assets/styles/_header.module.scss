@@ -1,0 +1,53 @@
+.header {
+  border: 2px dashed $color-light;
+  display: flex;
+  flex-direction: row;
+  padding-left: 1rem;
+
+  p{
+    margin:0;
+  }
+
+  &__figure{
+    //width: 20%;
+    //height: 100%;
+
+    img {
+      border: dashed purple 5px;
+      //padding: 5%;
+      //width: 100%;
+      //height: auto
+    }
+  }
+
+
+  &__body {
+    border: 2px dashed blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 4rem 0rem 4rem 0rem;  }
+
+  &__title {
+    text-transform: uppercase;
+    text-align: initial;
+    //font-size: 3rem;
+    //display: block;
+  }
+
+  &__positions {
+    p {
+      //font-size: x-large;
+      font-weight: bold;
+      color: $color-light;
+    }
+  }
+
+  &__cttinfo{
+    border: dashed 2px blue;
+  }
+
+  &__btns{
+
+  }
+}

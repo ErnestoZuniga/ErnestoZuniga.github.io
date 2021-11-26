@@ -1,0 +1,8 @@
+.dtpl /*date and place*/{
+    &__apictxt/*append icon and text*/{
+        @extend .pc;
+    }
+    &__icon{
+        @extend .pc__icon;
+    }
+}
