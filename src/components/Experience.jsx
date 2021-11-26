@@ -1,20 +1,21 @@
 import React from 'react';
 
 import * as BsIcons from 'react-icons/bs';
+import styles from '../assets/styles/styles.module.scss';
 
 const Experience = (props) => {
   return(
-    <div>
-      {props.title === true ? <h2>Experiencia</h2> : <></>}
-      <h3>{props.position}</h3>
-      <h4>{props.company}</h4>
-      <section>
-        <div>
-          <BsIcons.BsCalendar2Date/>
+    <div className={styles.expcard}>
+      {props.title === true ? <h2 className={styles['expcard__title']}>Experiencia</h2> : <></>}
+      <h3 className={styles['expcard__position']}>{props.position}</h3>
+      <h4 className={styles['expcard__company']}>{props.company}</h4>
+      <section className={styles['dtpl']}>
+        <div className={styles['dtpl__apictxt']}>
+          <BsIcons.BsCalendar2Date className={styles['dtpl__icon']}/>
           <p>{props.dateStart} - {props.dateEnd}</p>
         </div>
-        <div>
-          <BsIcons.BsGeoAltFill/> 
+        <div className={styles['dtpl__apictxt']}>
+          <BsIcons.BsGeoAltFill className={styles['dtpl__icon']}/> 
           <p>{props.workPlace}</p>
         </div>
       </section>
