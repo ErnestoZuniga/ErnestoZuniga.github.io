@@ -9,13 +9,13 @@ const Experience = (props) => {
       {props.title === true ? <h2 className={styles['expcard__title']}>Experiencia</h2> : <></>}
       <h3 className={styles['expcard__position']}>{props.position}</h3>
       <h4 className={styles['expcard__company']}>{props.company}</h4>
-      <section className={styles['dtpl']}>
-        <div className={styles['dtpl__apictxt']}>
-          <BsIcons.BsCalendar2Date className={styles['dtpl__icon']}/>
+      <section className={styles['date']}>
+        <div className={styles['date__icon']}>
+          <BsIcons.BsCalendar2Date className={styles['date__icon']}/>
           <p>{props.dateStart} - {props.dateEnd}</p>
         </div>
-        <div className={styles['dtpl__apictxt']}>
-          <BsIcons.BsGeoAltFill className={styles['dtpl__icon']}/> 
+        <div className={styles['date']}>
+          <BsIcons.BsGeoAltFill className={styles['date__icon']}/> 
           <p>{props.workPlace}</p>
         </div>
       </section>

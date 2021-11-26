@@ -1,53 +1,56 @@
 .header {
-  border: 2px dashed $color-light;
   display: flex;
   flex-direction: row;
-  padding-left: 1rem;
 
-  p{
-    margin:0;
+  p {
+    margin: 0;
   }
 
-  &__figure{
-    //width: 20%;
-    //height: 100%;
+  &__figure {
+    //background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
-      border: dashed purple 5px;
-      //padding: 5%;
-      //width: 100%;
-      //height: auto
+      //background-color: purple;
     }
   }
 
-
   &__body {
-    border: 2px dashed blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 4rem 0rem 4rem 0rem;  }
+    //border: 2px dashed blue;
+    //background-color: aqua;
+    padding: 4rem 0rem 4rem 0rem;
+  }
 
   &__title {
     text-transform: uppercase;
     text-align: initial;
-    //font-size: 3rem;
-    //display: block;
   }
 
   &__positions {
     p {
-      //font-size: x-large;
       font-weight: bold;
       color: $color-light;
     }
   }
 
-  &__cttinfo{
+  &__cttinfo /*contact indo*/ {
     border: dashed 2px blue;
+
+    .contact /*personal contact*/ {
+      display: flex;
+      flex-direction: row;
+      padding-right: 1.5rem;
+      //border: darkred dashed;
+
+      &__icon {
+        color: $color-light;
+        margin-right: 0.1rem;
+      }
+    }
   }
 
-  &__btns{
-
+  &__btns {
   }
 }

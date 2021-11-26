@@ -11,7 +11,7 @@ const Home = () => {
 
   return (   
   <div className={styles.body}>
-    <div className={styles.crr}>
+    <div className={styles['body__left']}>
     <Experience
       title={true}
       position={'FrontEnd Developer'}
@@ -30,7 +30,7 @@ const Home = () => {
     />
     </div>
 
-    <div className={styles.skned}>
+    <div className={styles['body__right']}>
     <LifePhilosophy description={'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'}/>
     <Skills 
       title={'Hardskills'} 

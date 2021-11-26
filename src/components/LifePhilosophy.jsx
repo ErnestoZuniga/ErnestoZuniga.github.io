@@ -1,8 +1,10 @@
 import React from 'react';
 
+import styles from '../assets/styles/styles.module.scss';
+
 const LifePhilosophy = (props) => (
-  <div>
-    <h2>Filosofia de vida</h2>
+  <div className={styles.philosophycard}>
+    <h2 className={styles['philosophycard__title']}>Filosofia de vida</h2>
     <p>{props.description}</p>
   </div>
 )
