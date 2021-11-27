@@ -24,10 +24,21 @@
       }
 
       .date {
+        p {
+          margin: 0;
+        }
+        //border:dashed deeppink 3px;
         display: flex;
         flex-direction: row;
         padding-right: 1.5rem;
+        &__append{
+          //border:dashed deepskyblue 3px;
+          display: flex;
+          flex-direction: row;
+          padding-right: 1.5rem;
+        }
         &__icon {
+          //border:dashed lightgreen 3px;
           color: $color-light;
           margin-right: 0.1rem;
         }

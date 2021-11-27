@@ -1,10 +1,7 @@
 .header {
+  //border: deeppink dashed 3px;
   display: flex;
   flex-direction: row;
-
-  p {
-    margin: 0;
-  }
 
   &__figure {
     //background-color: gray;
@@ -19,38 +16,77 @@
 
   &__body {
     //border: 2px dashed blue;
-    //background-color: aqua;
-    padding: 4rem 0rem 4rem 0rem;
+    //background-color: lightgrey;
+    padding: 4rem 0rem 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   &__title {
     text-transform: uppercase;
     text-align: initial;
+    font-size: 2.75rem;
+    font-weight: 500;
+    
+  }
+
+  &__link {
+    text-decoration: none;
+    font-weight: bold;
+    color: $color-light;
+    padding-right: 1rem;
+  }
+
+  &__link:hover {
+    text-decoration: underline;
   }
 
   &__positions {
-    p {
-      font-weight: bold;
-      color: $color-light;
-    }
+    padding: 1em 0rem 1rem 0rem;
   }
 
   &__cttinfo /*contact indo*/ {
-    border: dashed 2px blue;
+    //border: dashed 2px blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: normal;
+    padding: 0px 10% 1% 0%;
+    align-self: auto;
 
     .contact /*personal contact*/ {
+      //border: darkred dashed;
       display: flex;
       flex-direction: row;
       padding-right: 1.5rem;
-      //border: darkred dashed;
+      p {
+        margin: 0;
+      }
 
       &__icon {
         color: $color-light;
-        margin-right: 0.1rem;
+        padding-right: 0.1rem;
       }
     }
   }
 
   &__btns {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0 0rem 0;
+
+    button {
+      text-transform: uppercase;
+      background-color: #005282;
+      border: 2px solid #005282;
+      color: #fff;
+      border-radius: 4px;
+      cursor: pointer;
+      display: block;
+      font-weight: 500;
+      padding: 7px 20px;
+      text-decoration: none;
+      margin-right: 1rem;
+    }
   }
 }

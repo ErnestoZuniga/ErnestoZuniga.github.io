@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import ContactInfo from './ContactInfo.jsx'
 import styles from '../assets/styles/styles.module.scss'
@@ -18,8 +19,9 @@ const Header = () => {
         <h1 className={styles['header__title']}>Luis Ernesto Zu&#241;iga Ontiveros</h1>
 
         <section className={styles['header__positions']}>
-          <p>FrontEnd Developer</p>
-          <p>Mechatronics Engineering</p>
+          <Link className={styles['header__link']}to='/'>FrontEnd Developer</Link>
+          <Link className={styles['header__link']}to='/'>Mechatronics Engineering</Link>
+          <Link className={styles['header__link']}to='/'>All</Link>
         </section>
 
         <section className={styles['header__cttinfo']}>
