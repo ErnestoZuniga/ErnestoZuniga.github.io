@@ -28,7 +28,6 @@
     text-align: initial;
     font-size: 2.75rem;
     font-weight: 500;
-    
   }
 
   &__link {
@@ -61,6 +60,11 @@
       padding-right: 1.5rem;
       p {
         margin: 0;
+      }
+
+      p:hover {
+        text-decoration: underline;
+        cursor: pointer;
       }
 
       &__icon {
