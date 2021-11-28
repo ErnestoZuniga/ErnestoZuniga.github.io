@@ -59,6 +59,10 @@
     width: 30%;
     //background-color: gray;
     .philosophycard {
+      p{
+        font-style: italic;
+        color: $color-light;
+      }
       //border: dashed blue 3px;
       &__title {
         border-bottom: solid;

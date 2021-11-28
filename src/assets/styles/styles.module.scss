@@ -8,7 +8,17 @@ $color-dark: #00394d;
 
 
 
+@media (min-width: 480px) {
+  .main{
+    background-color: black;
+  }
+}
 
+@media (min-width: 800px) {
+  .main{
+    background-color: transparent;
+  }
+}
 
 
 
