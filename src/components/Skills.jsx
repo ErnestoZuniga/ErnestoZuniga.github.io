@@ -24,7 +24,8 @@ const Skills = (props) => {
     const arrch = createComponentArray(ch, <CircleHalf/>);
     const arrce = createComponentArray(ce, <CircleEmpty/>);
     return (
-      <div>
+      <div /*className={}*/>
+        <p>wololo</p>
         {arrcf.concat(arrch.concat(arrce))}
       </div>
     )
