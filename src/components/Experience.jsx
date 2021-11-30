@@ -1,7 +1,7 @@
 import React from 'react';
 
 import * as BsIcons from 'react-icons/bs';
-import styles from '../assets/styles/styles.module.scss';
+import styles from '../assets/styles/desktop/desktop.module.scss'
 
 const Experience = (props) => {
   return(

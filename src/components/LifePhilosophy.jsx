@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from '../assets/styles/styles.module.scss';
+import styles from '../assets/styles/desktop/desktop.module.scss'
 
 const LifePhilosophy = (props) => (
   <div className={styles.philosophycard}>

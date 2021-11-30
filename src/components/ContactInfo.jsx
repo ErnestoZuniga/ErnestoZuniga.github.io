@@ -2,7 +2,7 @@ import React from 'react';
 
 import * as BtIcons from 'react-icons/bs';
 import isElementinObject from '../services/isElementinObject';
-import styles from '../assets/styles/styles.module.scss'
+import styles from '../assets/styles/desktop/desktop.module.scss'
 
 const ContactInfo = (props) => {
   const openInNewTab = (url) => {
