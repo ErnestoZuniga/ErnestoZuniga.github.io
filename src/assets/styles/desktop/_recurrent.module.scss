@@ -1,0 +1,47 @@
+@mixin card {
+  p {
+    margin: 0;
+  }
+}
+
+@mixin card__title {
+  border-bottom: solid;
+  text-transform: uppercase;
+  color: $color-dark;
+}
+
+@mixin card__subtitle {
+  text-transform: capitalize;
+  font-size: larger;
+}
+
+@mixin card__subtitle2 {
+  color: $color-light;
+  font-size: medium;
+}
+
+@mixin icon--prepend {
+  //border:dashed deepskyblue 3px;
+  p {
+    margin: 0;
+  }
+  display: flex;
+  flex-direction: row;
+  padding-right: 1.5rem;
+}
+
+@mixin icon--format {
+  //border:dashed lightgreen 3px;
+  color: $color-light;
+  margin-right: 0.1rem;
+}
+
+@mixin link--alike {
+  p {
+    margin: 0;
+    &:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}

@@ -38,7 +38,7 @@ const Home = () => {
       ratedSkills={
         [{'ratedSkills': 'Javascript', 'rate': 3},{'ratedSkills': 'Python', 'rate': 2.5}]
       }
-      skills={['skill 1', 'skill 2', '...', 'Skill n']}
+      skills={['skill 1', 'skill 2', 'skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 2', 'skill 3','skill 3', 'skill 4', '...', 'Skill n']}
     />
     </div>
   </div>

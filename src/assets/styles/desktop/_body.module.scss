@@ -2,55 +2,77 @@
   //background-color: crimson;
   display: flex;
   //width: 100%;
+  height: 50 vmin;
+
+  .card {
+    &__title {
+      @include card__title;
+    }
+    &--unordered {
+      border-color: blue;
+      border-style: dashed;
+      display: flex;
+      flex-wrap: wrap;
+      p {
+        border: groove 2px;
+        padding: 0.3rem;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  .icon {
+    &--format {
+      @include icon--format;
+    }
+    &--prepend {
+      p {
+        font-weight: 600;
+        margin: 0.2rem;
+      }
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
 
   &__left /*left body container*/ {
-    //background-color: chartreuse ;
+    //background-color: c hartreuse ;
     width: 70%;
     padding-right: 5%;
 
     .expcard {
       &__title {
-        border-bottom: solid;
-        text-transform: uppercase;
-        color: $color-dark;
+        @include card__title;
       }
       &__position {
-        text-transform: capitalize;
-        font-size: larger;
+        @include card__subtitle;
       }
       &__company {
-        color: $color-light;
-        font-size: medium;
+        @include card__subtitle2;
       }
 
       .date {
-        p {
-          margin: 0;
-        }
-        //border:dashed deeppink 3px;
-        display: flex;
-        flex-direction: row;
-        padding-right: 1.5rem;
-        &__append{
-          //border:dashed deepskyblue 3px;
-          display: flex;
-          flex-direction: row;
-          padding-right: 1.5rem;
+        @include icon--prepend;
+        &__append {
+          @include icon--prepend;
         }
         &__icon {
-          //border:dashed lightgreen 3px;
-          color: $color-light;
-          margin-right: 0.1rem;
+          @include icon--format;
         }
       }
     }
 
     .prycard /*proyect card*/ {
       &__title {
-        @extend .expcard__title;
+        @include card__title;
       }
       &__pry {
-        @extend .expcard__position;
+        @include card__subtitle;
+      }
+      &__inst {
+        @include card__subtitle2;
       }
     }
   }
@@ -59,15 +81,13 @@
     width: 30%;
     //background-color: gray;
     .philosophycard {
-      p{
+      p {
         font-style: italic;
         color: $color-light;
       }
       //border: dashed blue 3px;
       &__title {
-        border-bottom: solid;
-        text-transform: uppercase;
-        color: $color-dark;
+        @include card__title;
       }
     }
   }
