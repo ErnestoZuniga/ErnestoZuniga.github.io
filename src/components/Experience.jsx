@@ -4,10 +4,10 @@ import * as BsIcons from 'react-icons/bs';
 import styles from '../assets/styles/styles.module.scss';
 
 const Experience = (props) => {
-  return(
+  return (
     <div className={styles.expcard}>
 
-      {props.title === true ? <h2 className={styles['expcard__title']}>Experiencia</h2> : <></>}
+      <h2 className={styles['expcard__title']}> {props.title} </h2>
 
       <h3 className={styles['expcard__position']}>{props.position}</h3>
 
@@ -15,11 +15,11 @@ const Experience = (props) => {
 
       <section className={styles['date']}>
         <div className={styles['date__append']}>
-          <BsIcons.BsCalendar2Date className={styles['date__icon']}/>
+          <BsIcons.BsCalendar2Date className={styles['date__icon']} />
           <p>{props.dateStart} - {props.dateEnd}</p>
         </div>
         <div className={styles['date__append']}>
-          <BsIcons.BsGeoAltFill className={styles['date__icon']}/> 
+          <BsIcons.BsGeoAltFill className={styles['date__icon']} />
           <p>{props.workPlace}</p>
         </div>
       </section>
@@ -30,9 +30,9 @@ const Experience = (props) => {
 
       <div /*style lista*/ >
         <ul>
-          {props.activities.map( 
+          {props.activities.map(
             (activity) => <li key={activity}>{activity}</li>
-            )}
+          )}
         </ul>
       </div>
 

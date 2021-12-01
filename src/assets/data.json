@@ -1,0 +1,52 @@
+{
+  "experience": {
+    "title": "Experiencia",
+    "position": "FrontEnd Developer (Freelance).",
+    "description":"Desarrollo de componentes y funcionalidades, consulta y peticiones a APIs y corrección de errores de un sistema de cajeros de criptomonedas, desarrollado en Electron y React.",
+    "company":"Krydex",
+    "dateStart":"Marzo 2021",
+    "dateEnd":"Julio 2021",
+    "workPlace":"CDMX Remoto",
+    "activities": [
+      "Desarrollo de paginas",
+      "Desarrollo de componentes.",
+      "Consumo de APIs.",
+      "Refactorizacion de código.",
+      "Manejo de dependencias con NPM."
+    ]
+  },
+  "proyects": {
+    "title": "Projectos",
+    "proyect": "Quantum Mechatronics of rotational motors",
+    "institution": "UPIITA I.P.N",
+    "description": "orem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere magna a quam posuere tempus. Donec nulla ex, venenatis quis ultrices a, varius sit amet felis. Nulla ultricies, magna eu feugiat malesuada, justo nisi fermentum massa, a porttitor sem tortor quis velit. Nulla non mauris suscipit, tempus nisl sed, varius nulla."
+  },
+  "lifePhilosophy": {
+    "title": "Filosofia de vida",
+    "description": " \"Confia en ti mismo. Crea el tipo de persona con la cual estaras feliz de vivir toda tu vida. Aprovecha el maximo de ti atizando las diminitas chispas interiores de posibilidades en llamas de logros\" —Golda Meir "
+  },
+  "skills": {
+    "title": "Hardskills",
+    "ratedSkills": [ 
+      {
+        "ratedSkills":  "Javascript",
+        "rate": "4"
+      }, 
+      {
+        "ratedSkills":  "HTML",
+        "rate": "3.5"
+      },
+      {
+        "ratedSkills":  "CSS",
+        "rate": "3.5"
+      },
+      {
+        "ratedSkills":  "Python",
+         "rate": "3"
+      }
+    ],
+    "unratedSkills": [ "NodeJs", "NPM", "React", "Bash Shell", "Git", "Github", "Responsive Desing", "Bootstrap", "SASS"]
+  }
+}
+
+
