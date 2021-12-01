@@ -4,8 +4,8 @@ import Experience from '../components/Experience';
 import Proyects from '../components/Proyects';
 import LifePhilosophy from '../components/LifePhilosophy';
 import Skills from '../components/Skills';
-import styles from '../assets/styles/styles.module.scss'
 import data from '../assets/data.json'
+import styles from '../assets/styles/desktop/desktop.module.scss'
 
 const Home = () => {
 

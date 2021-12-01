@@ -45,7 +45,7 @@
     padding: 1em 0rem 1rem 0rem;
   }
 
-  &__cttinfo /*contact indo*/ {
+  &__cttinfo /*contact info*/ {
     //border: dashed 2px blue;
     display: flex;
     flex-wrap: wrap;
@@ -55,21 +55,13 @@
 
     .contact /*personal contact*/ {
       //border: darkred dashed;
-      display: flex;
-      flex-direction: row;
-      padding-right: 1.5rem;
-      p {
-        margin: 0;
-        &:hover {
-          text-decoration: underline;
-          cursor: pointer;
-        }
-      }
+      @include icon--prepend;
+      @include link--alike;
 
 
       &__icon {
-        color: $color-light;
-        padding-right: 0.1rem;
+        //background-color: blue;
+        @include icon--format;
       }
     }
   }

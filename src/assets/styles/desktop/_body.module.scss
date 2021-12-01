@@ -1,0 +1,94 @@
+.body {
+  //background-color: crimson;
+  display: flex;
+  //width: 100%;
+  height: 50 vmin;
+
+  .card {
+    &__title {
+      @include card__title;
+    }
+    &--unordered {
+      border-color: blue;
+      border-style: dashed;
+      display: flex;
+      flex-wrap: wrap;
+      p {
+        border: groove 2px;
+        padding: 0.3rem;
+        border-radius: 8px;
+      }
+    }
+  }
+
+  .icon {
+    &--format {
+      @include icon--format;
+    }
+    &--prepend {
+      p {
+        font-weight: 600;
+        margin: 0.2rem;
+      }
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+
+  &__left /*left body container*/ {
+    //background-color: c hartreuse ;
+    width: 70%;
+    padding-right: 5%;
+
+    .expcard {
+      &__title {
+        @include card__title;
+      }
+      &__position {
+        @include card__subtitle;
+      }
+      &__company {
+        @include card__subtitle2;
+      }
+
+      .date {
+        @include icon--prepend;
+        &__append {
+          @include icon--prepend;
+        }
+        &__icon {
+          @include icon--format;
+        }
+      }
+    }
+
+    .prycard /*proyect card*/ {
+      &__title {
+        @include card__title;
+      }
+      &__pry {
+        @include card__subtitle;
+      }
+      &__inst {
+        @include card__subtitle2;
+      }
+    }
+  }
+
+  &__right {
+    width: 30%;
+    //background-color: gray;
+    .philosophycard {
+      p {
+        font-style: italic;
+        color: $color-light;
+      }
+      //border: dashed blue 3px;
+      &__title {
+        @include card__title;
+      }
+    }
+  }
+}
