@@ -9,11 +9,12 @@
       @include card__title;
     }
     &--unordered {
-      border-color: blue;
-      border-style: dashed;
+      //border-color: blue;
+      //border-style: dashed;
       display: flex;
       flex-wrap: wrap;
       p {
+        margin: 0.1rem;
         border: groove 2px;
         padding: 0.3rem;
         border-radius: 8px;
