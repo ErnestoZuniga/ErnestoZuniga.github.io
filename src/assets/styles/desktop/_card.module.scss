@@ -1,0 +1,21 @@
+@import './recurrent.module';
+
+.card {
+  @include card;
+
+  &__h1 {
+    @include card__h1;
+  }
+
+  &__h2 {
+    @include card__h2
+  }
+
+  &__h3 {
+    @include card__h3
+  }
+
+  &__h4 {
+
+  }
+}
