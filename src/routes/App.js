@@ -8,6 +8,7 @@ import {
 import FrontEnd from "../containers/FrontEnd"
 import NotFound from "../containers/NotFound"
 import Layout from "../components/Layout";
+import Playground from "../containers/Playground";
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
         <Switch>
           <Route exact={true} path="/" element={<FrontEnd/>} />
           <Route exact={true} path="*" element={<NotFound/>} />
+          <Route exact={true} path="/p" element={<Playground/>} />
         </Switch>
       </Layout>
     </Router>
