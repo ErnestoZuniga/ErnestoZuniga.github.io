@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "../assets/styles/deskto/desktop.module.scss";
+import styles from "../assets/styles/desktop/desktop.module.scss";
 import {
   BsCircleFill as CircleFill,
   BsCircleHalf as CircleHalf,

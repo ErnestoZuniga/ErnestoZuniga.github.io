@@ -1,47 +1,72 @@
 @mixin card {
-  p {
-    margin: 0;
-  }
+  //border: dashed deeppink 3px;
 }
 
-@mixin card__title {
+@mixin card_h1 {
+  text-transform: uppercase;
+  text-align: initial;
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+
+@mixin card__h2 {
   border-bottom: solid;
   text-transform: uppercase;
   color: $color-dark;
 }
 
-@mixin card__subtitle {
+@mixin card__h3 {
   text-transform: capitalize;
   font-size: larger;
 }
 
-@mixin card__subtitle2 {
+@mixin card__h4 {
   color: $color-light;
   font-size: medium;
 }
 
-@mixin icon--prepend {
-  //border:dashed deepskyblue 3px;
-  p {
-    margin: 0;
+@mixin icon {
+  &__prepend {
+    //border:dashed deepskyblue 3px;
+    p {
+      margin: 0;
+    }
+    display: flex;
+    flex-direction: row;
+    padding-right: 1.5rem;
   }
+  &__format {
+    //border:dashed lightgreen 3px;
+    color: $color-light;
+    margin-right: 0.1rem;
+  }
+}
+
+@mixin link {
+  text-decoration: none;
+  padding-right: 1rem;
+}
+
+@mixin link-hover {
+  text-decoration: underline;
+}
+
+@mixin bttns-container {
   display: flex;
   flex-direction: row;
-  padding-right: 1.5rem;
-}
+  padding: 1rem 0 0rem 0;
 
-@mixin icon--format {
-  //border:dashed lightgreen 3px;
-  color: $color-light;
-  margin-right: 0.1rem;
-}
-
-@mixin link--alike {
-  p {
-    margin: 0;
-    &:hover {
-      text-decoration: underline;
-      cursor: pointer;
-    }
+  button {
+    text-transform: uppercase;
+    background-color: #005282;
+    border: 2px solid #005282;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    font-weight: 500;
+    padding: 7px 20px;
+    text-decoration: none;
+    margin-right: 1rem;
   }
 }

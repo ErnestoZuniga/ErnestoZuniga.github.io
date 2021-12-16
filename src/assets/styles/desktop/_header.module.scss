@@ -8,10 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    img {
-      //background-color: purple;
-    }
   }
 
   &__body {
@@ -24,65 +20,42 @@
   }
 
   &__title {
-    text-transform: uppercase;
-    text-align: initial;
-    font-size: 2.75rem;
-    font-weight: 500;
+    @include card_h1;
   }
 
   &__link {
-    text-decoration: none;
+    @include link;
+    color: black;
+  }
+
+  &__link-blue {
+    @include link;
     font-weight: bold;
     color: $color-light;
-    padding-right: 1rem;
   }
 
   &__link:hover {
-    text-decoration: underline;
+    @include link-hover;
+    font-style: italic;
+  }
+
+  &__link-blue:hover {
+    @include link-hover;
   }
 
   &__positions {
     padding: 1em 0rem 1rem 0rem;
   }
 
-  &__cttinfo /*contact info*/ {
-    //border: dashed 2px blue;
+  &__ctt-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: normal;
     padding: 0px 10% 1% 0%;
     align-self: auto;
-
-    .contact /*personal contact*/ {
-      //border: darkred dashed;
-      @include icon--prepend;
-      @include link--alike;
-
-
-      &__icon {
-        //background-color: blue;
-        @include icon--format;
-      }
-    }
   }
 
-  &__btns {
-    display: flex;
-    flex-direction: row;
-    padding: 1rem 0 0rem 0;
-
-    button {
-      text-transform: uppercase;
-      background-color: #005282;
-      border: 2px solid #005282;
-      color: #fff;
-      border-radius: 4px;
-      cursor: pointer;
-      display: block;
-      font-weight: 500;
-      padding: 7px 20px;
-      text-decoration: none;
-      margin-right: 1rem;
-    }
+  &__bttns-container {
+    @include bttns-container;
   }
 }

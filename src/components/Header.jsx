@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import ContactInfo from './ContactInfo.jsx'
-import styles from '../assets/styles/deskto/desktop.module.scss'
+import styles from '../assets/styles/desktop/desktop.module.scss'
 
 
 const Header = () => {

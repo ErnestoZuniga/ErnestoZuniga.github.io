@@ -2,7 +2,7 @@ import React from "react";
 
 //import Card from "../components/Card";
 import Experience from "../components/Experience";
-import styles from '../assets/styles/deskto/desktop.module.scss'
+import styles from '../assets/styles/desktop/desktop.module.scss'
 
 const Playground = () => {
 return (
