@@ -15,12 +15,19 @@
       "Manejo de dependencias con NPM."
     ]
   },
-  "proyects": {
-    "title": "Projectos",
-    "proyect": "Quantum Mechatronics of rotational motors",
-    "institution": "UPIITA I.P.N",
-    "description": "orem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere magna a quam posuere tempus. Donec nulla ex, venenatis quis ultrices a, varius sit amet felis. Nulla ultricies, magna eu feugiat malesuada, justo nisi fermentum massa, a porttitor sem tortor quis velit. Nulla non mauris suscipit, tempus nisl sed, varius nulla."
-  },
+  "proyects": [
+    {
+      "title": "Projectos",
+      "proyect": "Visión artiﬁcial y control robotico empleando Labview",
+      "institution": "UPIITA I.P.N",
+      "description": "Control en lazo cerrado de un brazo robótico con servomotores de 3 grados de libertad, usando el modulo de visión artiﬁcial de Labview."
+    },
+    {
+      "proyect": "Control P.I.D",
+      "institution": "UPIITA I.P.N",
+      "description": "Control P.I.D con electrónica analógica para controlar la posición de un motor de C.D en el que actúa la gravedad."
+    }
+  ],
   "lifePhilosophy": {
     "title": "Filosofia de vida",
     "description": " \"Confia en ti mismo. Crea el tipo de persona con la cual estaras feliz de vivir toda tu vida. Aprovecha el maximo de ti atizando las diminitas chispas interiores de posibilidades en llamas de logros\" —Golda Meir "

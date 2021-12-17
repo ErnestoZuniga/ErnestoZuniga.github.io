@@ -23,11 +23,17 @@ const Home = () => {
           /*divider={true}*/
         />
         <Proyects
-          h2={data.proyects.title}
-          h3={data.proyects.proyect}
-          h4={data.proyects.institution}
-          description={data.proyects.description}
-          /*divider={true}*/
+          h2={data.proyects[0].title}
+          h3={data.proyects[0].proyect}
+          h4={data.proyects[0].institution}
+          description={data.proyects[0].description}
+          divider={true}
+        />
+        <Proyects
+          h3={data.proyects[1].proyect}
+          h4={data.proyects[1].institution}
+          description={data.proyects[1].description}
+          divider={true}
         />
       </div>
 
