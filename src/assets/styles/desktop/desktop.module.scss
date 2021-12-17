@@ -3,22 +3,24 @@ $color-dark: #00394d;
 //$breakpoints: ('phone': 640px, 'tablet': 768px, 'desktop': 1024px) !default;
 $mobile: 640px;
 $tablet: 1024px;
-$desktop:1440px;
+$desktop: 1440px;
 
-@import './recurrent.module';
+@import "./recurrent.module";
 
-@import './main.module';
-@import './header.module';
-@import './body.module';
+@import "./main.module";
+@import "./header.module";
+@import "./body.module";
 
-@media screen and (max-width: $mobile) { //very small
+@media screen and (max-width: $mobile) {
+  //very small
   /*.main{
     background-color: lightcoral;
   }*/
-  .header{
+  .header {
     display: block;
+    padding-top: 2rem;
   }
-  .body{
+  .body {
     display: block;
     &__left {
       width: auto;
@@ -29,15 +31,17 @@ $desktop:1440px;
   }
 }
 
-@media screen and (min-width: $mobile) and (max-width: $tablet) { //small
-  .main{
+@media screen and (min-width: $mobile) and (max-width: $tablet) {
+  //small
+  .main {
     //background-color: lightgreen;
     width: auto;
   }
-  .header{
+  .header {
     display: block;
+    padding-top: 2rem;
   }
-  .body{
+  .body {
     display: block;
     &__left {
       width: auto;
@@ -48,17 +52,18 @@ $desktop:1440px;
   }
 }
 
-@media screen and (min-width: $tablet) and (max-width: $desktop) { //medium
-  .main{
+@media screen and (min-width: $tablet) and (max-width: $desktop) {
+  //medium
+  .main {
     //background-color: blue;
     width: 80vw;
   }
 }
 
-@media screen and (min-width: $desktop) { //large
-  .main{
+@media screen and (min-width: $desktop) {
+  //large
+  .main {
     //background-color: red;
     width: 60vw;
-    
   }
 }

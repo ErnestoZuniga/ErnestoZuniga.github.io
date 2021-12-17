@@ -11,7 +11,7 @@ const Header = () => {
     <div className={styles['header']}>
 
       <div className={styles['header__figure']}>
-        <img src={'https://i.imgur.com/2oKnRZ5.png'} alt="Ernesto"/>
+        <img src={'https://i.imgur.com/GqEBF0g.png'} alt="Ernesto"/>
       </div>
 
       <div className={styles['header__body']}>

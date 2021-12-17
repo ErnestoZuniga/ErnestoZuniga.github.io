@@ -8,6 +8,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    //height: auto;
+    //width: 3rem;
+    img {
+      height: 15rem;
+      width: auto;
+    }
   }
 
   &__body {
