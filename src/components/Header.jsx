@@ -11,7 +11,7 @@ const Header = () => {
     <div className={styles['header']}>
 
       <div className={styles['header__figure']}>
-        <img src={'https://i.imgur.com/GqEBF0g.png'} alt="Ernesto"/>
+        <img src={'https://i.imgur.com/YKpGHEf.png'} alt="Ernesto"/>
       </div>
 
       <div className={styles['header__body']}>
@@ -28,10 +28,10 @@ const Header = () => {
           <ContactInfo tel={'5518137358'} /> 
           <ContactInfo email={'poli.ernesto95@gmail.com'} /> 
           <ContactInfo addres={'Gustavo A. Madero, CDMX'}/> 
-          <ContactInfo facebook={'Facebook.com/Kamewalker'}/> 
+          <ContactInfo facebook={'Kamewalker'}/> 
           <ContactInfo twitter={'@Kamewalker_Tr'}/>
-          <ContactInfo github={'github.com/ErnestoZuniga'}/>  
-          <ContactInfo linkedin={'linkedin'}/>  
+          <ContactInfo github={'ErnestoZuniga'}/>  
+          <ContactInfo linkedin={'Linkedin'}/>  
         </div>
 
 

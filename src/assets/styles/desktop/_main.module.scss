@@ -5,7 +5,7 @@
   box-sizing: border-box;
   //min-width: 800px;
   margin: 0 auto;
-  padding: 0 2rem 0rem 2rem;
+  padding: 0 2rem 1rem 2rem;
   display: flex;
   flex-direction: column;
   box-shadow: 5px 5px 15px 5px #000000;
@@ -49,6 +49,7 @@
   //border-style: dashed;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 0.5rem;
   p {
     margin: 0.1rem;
     border: groove 2px;
