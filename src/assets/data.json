@@ -1,58 +1,72 @@
 {
-  "experience": {
-    "title": "Experiencia",
-    "position": "FrontEnd Developer (Freelance).",
-    "description":"Desarrollo de componentes y funcionalidades, consulta y peticiones a APIs y corrección de errores de un sistema de cajeros de criptomonedas, desarrollado en Electron y React.",
-    "company":"Krydex",
-    "dateStart":"Marzo 2021",
-    "dateEnd":"Julio 2021",
-    "workPlace":"CDMX Remoto",
-    "activities": [
-      "Desarrollo de paginas",
-      "Desarrollo de componentes.",
-      "Consumo de APIs.",
-      "Refactorizacion de código.",
-      "Manejo de dependencias con NPM."
+  "frontEnd": {
+    "experience": {
+      "title": "Experiencia",
+      "position": "FrontEnd Developer (Freelance).",
+      "description":"Desarrollo de componentes y funcionalidades, consulta y peticiones a APIs y corrección de errores de un sistema de cajeros de criptomonedas, desarrollado en Electron y React.",
+      "company":"Krydex",
+      "dateStart":"Marzo 2021",
+      "dateEnd":"Julio 2021",
+      "workPlace":"CDMX Remoto",
+      "activities": [
+        "Desarrollo de paginas",
+        "Desarrollo de componentes.",
+        "Consumo de APIs.",
+        "Refactorizacion de código.",
+        "Manejo de dependencias con NPM."
+      ]
+    },
+    "skills": {
+      "title": "Hardskills",
+      "ratedSkills": [ 
+        {
+          "ratedSkills":  "Javascript",
+          "rate": "4"
+        }, 
+        {
+          "ratedSkills":  "HTML",
+          "rate": "3.5"
+        },
+        {
+          "ratedSkills":  "CSS",
+          "rate": "3.5"
+        },
+        {
+          "ratedSkills":  "Python",
+           "rate": "3"
+        }
+      ],
+      "unratedSkills": [ "NodeJs", "NPM", "React", "Bash Shell", "Git", "Github", "Responsive Desing", "Bootstrap", "SASS"]
+    }
+  },
+  "mechatronics": {
+    "proyects": [
+      {
+        "title": "Proyectos",
+        "proyect": "Visión artiﬁcial y control robotico empleando Labview",
+        "institution": "UPIITA I.P.N",
+        "description": "Control en lazo cerrado de un brazo robótico con servomotores de 3 grados de libertad, usando el modulo de visión artiﬁcial de Labview."
+      },
+      {
+        "proyect": "Control P.I.D",
+        "institution": "UPIITA I.P.N",
+        "description": "Control P.I.D con electrónica analógica para controlar la posición de un motor de C.D en el que actúa la gravedad."
+      }
     ]
   },
-  "proyects": [
-    {
-      "title": "Projectos",
-      "proyect": "Visión artiﬁcial y control robotico empleando Labview",
-      "institution": "UPIITA I.P.N",
-      "description": "Control en lazo cerrado de un brazo robótico con servomotores de 3 grados de libertad, usando el modulo de visión artiﬁcial de Labview."
-    },
-    {
-      "proyect": "Control P.I.D",
-      "institution": "UPIITA I.P.N",
-      "description": "Control P.I.D con electrónica analógica para controlar la posición de un motor de C.D en el que actúa la gravedad."
-    }
-  ],
   "lifePhilosophy": {
     "title": "Filosofia de vida",
     "description": " \"Confia en ti mismo. Crea el tipo de persona con la cual estaras feliz de vivir toda tu vida. Aprovecha el maximo de ti atizando las diminitas chispas interiores de posibilidades en llamas de logros\" —Golda Meir "
   },
-  "skills": {
-    "title": "Hardskills",
-    "ratedSkills": [ 
-      {
-        "ratedSkills":  "Javascript",
-        "rate": "4"
-      }, 
-      {
-        "ratedSkills":  "HTML",
-        "rate": "3.5"
-      },
-      {
-        "ratedSkills":  "CSS",
-        "rate": "3.5"
-      },
-      {
-        "ratedSkills":  "Python",
-         "rate": "3"
-      }
-    ],
-    "unratedSkills": [ "NodeJs", "NPM", "React", "Bash Shell", "Git", "Github", "Responsive Desing", "Bootstrap", "SASS"]
+  "softSkills": [
+    "Aplicado","Observador","Autodidacta","Gestion del tiempo", "Colaboracion en equipos", "Aprendizaje Rapido", "Flexibilidad y adaptacion al cambio", "Actitud Positiva", "Persistente"
+  ],
+  "education": {
+    "title": "Ing. Mecatronica",
+    "institution": "UPIITA I.P.N",
+    "dateStart":"Marzo 2015",
+    "dateEnd":"En curso",
+    "description": "Trabajo de titulacion en curso. (Trabajo terminal,Tesis de titulacion.)"
   }
 }
 
