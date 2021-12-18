@@ -5,14 +5,14 @@
       "position": "FrontEnd Developer (Freelance).",
       "description":"Desarrollo de componentes y funcionalidades, consulta y peticiones a APIs y corrección de errores de un sistema de cajeros de criptomonedas, desarrollado en Electron y React.",
       "company":"Krydex",
-      "dateStart":"Marzo 2021",
+      "dateStart":"marzo 2021",
       "dateEnd":"Julio 2021",
       "workPlace":"CDMX Remoto",
       "activities": [
-        "Desarrollo de paginas",
+        "Desarrollo de páginas",
         "Desarrollo de componentes.",
         "Consumo de APIs.",
-        "Refactorizacion de código.",
+        "Refactorización de código.",
         "Manejo de dependencias con NPM."
       ]
     },
@@ -40,26 +40,81 @@
     }
   },
   "mechatronics": {
+    "experience": {
+      "title": "Trabajo terminal: Diseño de un sillón electrónico para estación de trabajo dental.",
+      "description":"Diseño y simulación del prototipo de un sillón electrónico de tres grados de libertad para estación de trabajo dental empleando la metodología VDI 2206 de diseño de sistemas mecatrónicos. ",
+      "company":"UPIITA I.P.N",
+      "dateStart":"2021",
+      "dateEnd":"En curso",
+      "workPlace":"CDMX",
+      "activities": [
+        "Diseño y simulación electrónica.",
+        "Diseño y simulación mecánica",
+        "Análisis estructural",
+        "Selección de materiales",
+        "Selección de componentes",
+        "Acondicionamiento de sensores"
+      ]
+    },
     "proyects": [
       {
         "title": "Proyectos",
-        "proyect": "Visión artiﬁcial y control robotico empleando Labview",
+        "proyect": "Visión artificial y control robótico empleando Labview",
         "institution": "UPIITA I.P.N",
-        "description": "Control en lazo cerrado de un brazo robótico con servomotores de 3 grados de libertad, usando el modulo de visión artiﬁcial de Labview."
+        "description": "Control en lazo cerrado de un brazo robótico con servomotores de 3 grados de libertad, usando el módulo de visión artificial de Labview."
       },
       {
         "proyect": "Control P.I.D",
         "institution": "UPIITA I.P.N",
         "description": "Control P.I.D con electrónica analógica para controlar la posición de un motor de C.D en el que actúa la gravedad."
+      },
+      {
+        "proyect": "Animación de la cinemática de un brazo robótico",
+        "institution": "UPIITA I.P.N",
+        "description": "Aplicación de escritorio realizada en Java para visualizar y controlar mediante un mando de videojuego la cinemática de un sistema articulado de dos grados de libertad planar para representar el movimiento de un brazo robótico simple. "
       }
-    ]
+    ],
+    "skills": {
+      "title": "Hardskills",
+      "ratedSkills": [ 
+        {
+          "ratedSkills":  "Matlab",
+          "rate": "4"
+        }, 
+        {
+          "ratedSkills":  "Solidworks",
+          "rate": "3"
+        },
+        {
+          "ratedSkills":  "NI Labview",
+          "rate": "3"
+        },
+        {
+          "ratedSkills":  "NI Multisim",
+           "rate": "3"
+        }, 
+        {
+          "ratedSkills":  "Catia",
+          "rate": "2"
+        },
+        {
+          "ratedSkills":  "AutoCad",
+          "rate": "2"
+        }
+      ],
+      "unratedSkills": [ "Diseño CAD/CAM", "Diseño electrónico", "Ingeniería Asistida Por Computadora", "Ingeniería de control", "Control Difuso", "Análisis estructural", "Neumática e Hidráulica", "Acondicionamiento de sensores", "Redes Neuronales", "Procesos de manufactura"
+      ],
+      "methodology": [
+        "VDI 2006: Diseño de sistemas Mecatrónicos"
+      ]
+    }
   },
   "lifePhilosophy": {
-    "title": "Filosofia de vida",
-    "description": " \"Confia en ti mismo. Crea el tipo de persona con la cual estaras feliz de vivir toda tu vida. Aprovecha el maximo de ti atizando las diminitas chispas interiores de posibilidades en llamas de logros\" —Golda Meir "
+    "title": "Filosofía de vida",
+    "description": " \"Confía en ti mismo. Crea el tipo de persona con la cual estaras feliz de vivir toda tu vida. Aprovecha el máximo de ti atizando las diminutas chispas interiores de posibilidades en llamas de logros\" —Golda Meir "
   },
   "softSkills": [
-    "Aplicado","Observador","Autodidacta","Gestion del tiempo", "Colaboracion en equipos", "Aprendizaje Rapido", "Flexibilidad y adaptacion al cambio", "Actitud Positiva", "Persistente"
+    "Aplicado","Observador","Autodidacta","Gestión del tiempo", "Colaboración en equipos", "Aprendizaje rápido", "Flexibilidad y adaptación al cambio", "Actitud Positiva", "Perseverante"
   ],
   "education": {
     "title": "Ing. Mecatronica",
@@ -67,6 +122,22 @@
     "dateStart":"Marzo 2015",
     "dateEnd":"En curso",
     "description": "Trabajo de titulacion en curso. (Trabajo terminal,Tesis de titulacion.)"
+  },
+  "lenguages" : {
+    "title": "Idiomas",
+    "ratedSkills": [
+      {
+        "ratedSkills":  "Español",
+        "rate": "5"
+      },
+      {
+        "ratedSkills":  "Ingles",
+        "rate": "4"
+      },{
+        "ratedSkills":  "Japones",
+        "rate": "1"
+      }
+    ]
   }
 }
 

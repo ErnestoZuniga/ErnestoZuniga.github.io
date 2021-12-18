@@ -6,7 +6,6 @@ import {
   BsCircleHalf as CircleHalf,
   BsCircle as CircleEmpty,
 } from "react-icons/bs";
-import Card from "./Card";
 import isElementinObject from "../services/isElementinObject";
 
 const Skills = (props) => {
@@ -44,13 +43,25 @@ const Skills = (props) => {
   };
 
   return (
-    <div className={ props.divider === true ? styles['divider'] : styles['card'] }>
-      { isElementinObject(props, 'h2') ? <h2 className={styles['card__h2']} > {props.h2} </h2> : <></>}
-      { isElementinObject(props, 'ratedSkills') ? createRatedSkill(props.ratedSkills) : <></>}
+    <div
+      className={props.divider === true ? styles["divider"] : styles["card"]}
+    >
+      {isElementinObject(props, "h2") ? (
+        <h2 className={styles["card__h2"]}> {props.h2} </h2>
+      ) : (
+        <></>
+      )}
+      {isElementinObject(props, "ratedSkills") ? (
+        createRatedSkill(props.ratedSkills)
+      ) : (
+        <></>
+      )}
       <div className={styles["unordered"]}>
-        {props.skills.map((skill, i) => (
-          <p key={skill + i.toString()}> {skill}</p>
-        ))}
+        {
+          isElementinObject(props, 'skills') ? props.skills.map( (skill, i) => {
+            return (<p key={skill + i.toString()}> {skill} </p>)
+          }) : <></>
+        }
       </div>
     </div>
   );

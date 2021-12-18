@@ -8,7 +8,7 @@ import Card from "../components/Card";
 import data from "../assets/data.json";
 import styles from "../assets/styles/desktop/desktop.module.scss";
 
-const Home = () => {
+const FrontEnd = () => {
   return (
     <div className={styles.body}>
       <div className={styles["body__left"]}>
@@ -21,7 +21,6 @@ const Home = () => {
           place={data.frontEnd.experience.workPlace}
           description={data.frontEnd.experience.description}
           activities={data.frontEnd.experience.activities}
-          /*divider={true}*/
         />
         {/*<Proyects
           h2={data.proyects[0].title}
@@ -42,6 +41,10 @@ const Home = () => {
         <LifePhilosophy
           h2={data.lifePhilosophy.title}
           description={data.lifePhilosophy.description}
+        />
+        <Skills
+          h2={'Idiomas'}
+          ratedSkills={data.lenguages.ratedSkills}          
         />
         <Skills
           h2={data.frontEnd.skills.title}
@@ -65,4 +68,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default FrontEnd;
