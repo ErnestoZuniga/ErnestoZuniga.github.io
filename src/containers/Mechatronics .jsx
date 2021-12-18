@@ -53,9 +53,13 @@ const Mechatronics = () => {
           ratedSkills={data.lenguages.ratedSkills}          
         />
         <Skills
-          h2={data.mechatronics.skills.title}
+          h2={"Hard Skills"}
           ratedSkills={data.mechatronics.skills.ratedSkills}
           skills={data.mechatronics.skills.unratedSkills}
+          divider={true}
+        />
+        <Skills 
+        skills={data.mechatronics.skills.methodology}
         />
         <Skills
           h2={'Soft Skills'}

@@ -30,10 +30,6 @@
         {
           "ratedSkills":  "CSS",
           "rate": "3.5"
-        },
-        {
-          "ratedSkills":  "Python",
-           "rate": "3"
         }
       ],
       "unratedSkills": [ "NodeJs", "NPM", "React", "Bash Shell", "Git", "Github", "Responsive Desing", "Bootstrap", "SASS"]
@@ -105,7 +101,7 @@
       "unratedSkills": [ "Diseño CAD/CAM", "Diseño electrónico", "Ingeniería Asistida Por Computadora", "Ingeniería de control", "Control Difuso", "Análisis estructural", "Neumática e Hidráulica", "Acondicionamiento de sensores", "Redes Neuronales", "Procesos de manufactura"
       ],
       "methodology": [
-        "VDI 2006: Diseño de sistemas Mecatrónicos"
+        "VDI 2006: Diseño de sistemas Mecatrónicos","Scrum"
       ]
     }
   },
@@ -138,6 +134,27 @@
         "rate": "1"
       }
     ]
+  },
+  "others": {
+    "skills": {
+      "ratedSkills": [
+        {
+          "ratedSkills":  "Python",
+          "rate": "2.5"
+        },
+        {
+          "ratedSkills":  "Java",
+          "rate": "2"
+        },
+        {
+          "ratedSkills":  "C#",
+          "rate": "2"
+        }
+      ],
+      "unratedSkills": [
+        "Django", "Express Js", "Passport Js","APIs: REST","MongoDB","Postman", "WSL", "Bash Shell", "Linux"
+      ]
+    }
   }
 }
 

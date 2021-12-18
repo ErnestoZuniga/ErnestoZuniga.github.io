@@ -22,19 +22,6 @@ const FrontEnd = () => {
           description={data.frontEnd.experience.description}
           activities={data.frontEnd.experience.activities}
         />
-        {/*<Proyects
-          h2={data.proyects[0].title}
-          h3={data.proyects[0].proyect}
-          h4={data.proyects[0].institution}
-          description={data.proyects[0].description}
-          divider={true}
-        />
-        <Proyects
-          h3={data.proyects[1].proyect}
-          h4={data.proyects[1].institution}
-          description={data.proyects[1].description}
-          divider={true}
-        />*/}
       </div>
 
       <div className={styles["body__right"]}>
@@ -47,9 +34,21 @@ const FrontEnd = () => {
           ratedSkills={data.lenguages.ratedSkills}          
         />
         <Skills
-          h2={data.frontEnd.skills.title}
+          h2={"Hard Skills"}
           ratedSkills={data.frontEnd.skills.ratedSkills}
+          divider={true}
+        />
+        <Skills
+          ratedSkills={data.others.skills.ratedSkills}
           skills={data.frontEnd.skills.unratedSkills}
+          divider={true}
+        />
+        <Skills
+          skills={data.others.skills.unratedSkills}
+          divider={true}
+        />
+        <Skills
+          skills={data.mechatronics.skills.methodology}
         />
         <Skills
           h2={'Soft Skills'}

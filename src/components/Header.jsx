@@ -19,9 +19,9 @@ const Header = () => {
         <h1 className={styles['header__title']}>Luis Ernesto Zu&#241;iga Ontiveros</h1>
 
         <section className={styles['header__positions']}>
-          <Link className={styles['header__link-blue']}to='/'>FrontEnd Developer</Link>
+          <Link className={styles['header__link-blue']}to='/FrontEnd'>FrontEnd Developer</Link>
           <Link className={styles['header__link-blue']}to='/Mechatronics'>Mechatronics Engineering</Link>
-          <Link className={styles['header__link-blue']}to='/All'>All</Link>
+          <Link className={styles['header__link-blue']}to='/'>All</Link>
         </section>
 
         <div className={styles['header__ctt-info']}>
