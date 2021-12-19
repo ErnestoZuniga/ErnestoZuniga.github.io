@@ -2,7 +2,7 @@
 
 ## _Curriculum Vitae_
 
-![](https://i.imgur.com/YKpGHEf.png)
+![](https://i.imgur.com/YKpGHEf.png =250x250)
 
 ## About me
 
