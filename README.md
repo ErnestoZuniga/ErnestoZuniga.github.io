@@ -6,7 +6,7 @@
 
 ## About me
 
-Nothing much to say, I'm a senior engineering student and also an meant to be web full stack developer by hobby and passion. Know me more by clicking  [here](https://ernestozuniga.github.io/).
+Nothing much to say, I'm a senior engineering student and also a meant to be web full stack developer by hobby and passion. Know more about me by clicking  [here](https://ernestozuniga.github.io/).
 
 ## Tech
 
@@ -16,5 +16,5 @@ Nothing much to say, I'm a senior engineering student and also an meant to be we
 
 ## Conventions
 
-- [BEM] - Block Element Modifier is a methodology that helps to create reusable components and code sharing in front-end development.
+- [BEM](http://getbem.com/) - Block Element Modifier is a methodology that helps to create reusable components and code sharing in front-end development.
 - [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) - A specification for adding human and machine readable meaning to commit messages.
