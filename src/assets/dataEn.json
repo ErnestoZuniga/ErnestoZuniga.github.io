@@ -1,0 +1,159 @@
+{
+  "frontEnd": {
+    "experience": {
+      "title": "Experience",
+      "position": "FrontEnd Developer (Freelance).",
+      "description": "Development of components and functionalities, consultation and requests to APIs and correction of errors of a cryptocurrency ATM system, developed in Electron and React.",
+      "company": "Krydex",
+      "dateStart": "March 2021",
+      "dateEnd": "July 2021",
+      "workPlace": "Remote CDMX",
+      "activities": [
+        "Development of pages",
+        "Component development.",
+        "Consumption of APIs.",
+        "Code refactoring.",
+        "Dependency Handling with NPM."
+      ]
+    },
+    "skills": {
+      "title": "Hardskills",
+      "ratedSkills": [
+        {
+          "ratedSkills": "Javascript",
+          "rate": "4"
+        },
+        {
+          "ratedSkills": "HTML",
+          "rate": "3.5"
+        },
+        {
+          "ratedSkills": "CSS",
+          "rate": "3.5"
+        }
+      ],
+      "unratedSkills": ["NodeJs", "NPM", "React", "Bash Shell", "Git", "Github", "Responsive Desing", "Bootstrap", "SASS"]
+    }
+  },
+  "mechatronics": {
+    "experience": {
+      "title": "Terminal work: Design of an electronic chair for a dental workstation.",
+      "description": "Design and simulation of the prototype of an electronic chair with three degrees of freedom for a dental workstation using the VDI 2206 methodology for the design of mechatronic systems.",
+      "company": "UPIITA I.P.N",
+      "dateStart": "2021",
+      "dateEnd": "In progress",
+      "workPlace": "CDMX",
+      "activities": [
+        "Electronic design and simulation.",
+        "Design and mechanical simulation",
+        "Structural analysis",
+        "Materials selection",
+        "Component selection",
+        "Conditioning of sensors"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Projects",
+        "project": "Artificial vision and robotic control using Labview",
+        "institution": "UPIITA I.P.N",
+        "description": "Closed-loop control of a robotic arm with 3-degree-of-freedom servomotors, using the Labview machine vision module."
+      },
+      {
+        "project": "Control P.I.D",
+        "institution": "UPIITA I.P.N",
+        "description": "P.I.D control with analog electronics to control the position of a D.C. motor in which gravity acts."
+      },
+      {
+        "project": "Animation of the kinematics of a robotic arm",
+        "institution": "UPIITA I.P.N",
+        "description": "Desktop application made in Java to visualize and control the kinematics of an articulated system with two planar degrees of freedom to represent the movement of a simple robotic arm through a video game controller."
+      }
+    ],
+    "skills": {
+      "title": "Hardskills",
+      "ratedSkills": [
+        {
+          "ratedSkills": "Matlab",
+          "rate": "4"
+        },
+        {
+          "ratedSkills": "Solidworks",
+          "rate": "3"
+        },
+        {
+          "ratedSkills": "NI Labview",
+          "rate": "3"
+        },
+        {
+          "ratedSkills": "NI Multisim",
+           "rate": "3"
+        },
+        {
+          "ratedSkills": "Catia",
+          "rate": "2"
+        },
+        {
+          "ratedSkills": "AutoCad",
+          "rate": "2"
+        }
+      ],
+      "unratedSkills": ["CAD / CAM Design", "Electronic Design", "Computer Aided Engineering", "Control Engineering", "Fuzzy Control", "Structural Analysis", "Pneumatics and Hydraulics", "Sensor Conditioning "," Neural Networks "," Manufacturing processes "
+      ],
+      "methodology": [
+        "VDI 2206: Mechatronic Systems Design", "Scrum"
+      ]
+    }
+  },
+  "lifePhilosophy": {
+    "title": "Philosophy of life",
+    "description": "\" Trust yourself. Create the type of person with whom you will be happy to live your whole life. Make the most of yourself by stoking the tiny inner sparks of flaming possibilities of achievement. \" —Golda Meir"
+  },
+  "softSkills": [
+    "Applied", "Observer", "Self-taught", "Time management", "Team collaboration", "Quick learning", "Flexibility and adaptation to change", "Positive attitude", "Persevering"
+  ],
+  "education": {
+    "title": "Ing. Mechatronica",
+    "institution": "UPIITA I.P.N",
+    "dateStart": "March 2015",
+    "dateEnd": "In progress",
+    "description": "Degree work in progress. (Final work, Degree thesis.)"
+  },
+  "lenguages": {
+    "title": "Languages",
+    "ratedSkills": [
+      {
+        "ratedSkills": "Español",
+        "rate": "5"
+      },
+      {
+        "ratedSkills": "English",
+        "rate": "4"
+      }, {
+        "ratedSkills": "Japanese",
+        "rate": "1"
+      }
+    ]
+  },
+  "others": {
+    "skills": {
+      "ratedSkills": [
+        {
+          "ratedSkills": "Python",
+          "rate": "2.5"
+        },
+        {
+          "ratedSkills": "Java",
+          "rate": "2"
+        },
+        {
+          "ratedSkills": "C #",
+          "rate": "2"
+        }
+      ],
+      "unratedSkills": [
+        "Django", "Express Js", "Passport Js", "APIs: REST", "MongoDB", "Postman", "WSL", "Bash Shell", "Linux"
+      ]
+    }
+  }
+}

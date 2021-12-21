@@ -49,7 +49,7 @@ const All = () => {
           h3={data.mechatronics.proyects[2].proyect}
           h4={data.mechatronics.proyects[2].institution}
           description={data.mechatronics.proyects[2].description}
-          divider={true}
+          //divider={true}
         />
       </div>
 

@@ -39,7 +39,6 @@ const Mechatronics = () => {
           h3={data.mechatronics.proyects[2].proyect}
           h4={data.mechatronics.proyects[2].institution}
           description={data.mechatronics.proyects[2].description}
-          divider={true}
         />
       </div>
 
@@ -55,6 +54,9 @@ const Mechatronics = () => {
         <Skills
           h2={"Hard Skills"}
           ratedSkills={data.mechatronics.skills.ratedSkills}
+          divider={true}
+        />
+        <Skills
           skills={data.mechatronics.skills.unratedSkills}
           divider={true}
         />
