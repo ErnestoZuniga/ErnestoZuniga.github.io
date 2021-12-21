@@ -101,7 +101,7 @@
       "unratedSkills": [ "Diseño CAD/CAM", "Diseño electrónico", "Ingeniería Asistida Por Computadora", "Ingeniería de control", "Control Difuso", "Análisis estructural", "Neumática e Hidráulica", "Acondicionamiento de sensores", "Redes Neuronales", "Procesos de manufactura"
       ],
       "methodology": [
-        "VDI 2006: Diseño de sistemas Mecatrónicos","Scrum"
+        "VDI 2206: Diseño de sistemas Mecatrónicos","Scrum"
       ]
     }
   },

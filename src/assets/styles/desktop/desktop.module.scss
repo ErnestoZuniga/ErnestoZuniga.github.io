@@ -13,12 +13,23 @@ $desktop: 1440px;
 
 @media screen and (max-width: $mobile) {
   //very small
-  /*.main{
-    background-color: lightcoral;
-  }*/
+  .main{
+    //background-color: lightcoral;
+    padding: 0 0.75rem 0.5rem 0.75rem;
+  }
   .header {
     display: block;
     padding-top: 2rem;
+    &__ctt-info {
+      display: block;
+      //flex-wrap: wrap;
+      //justify-content: normal;
+      //padding: 0px 10% 1% 0%;
+      //align-self: auto;
+    }
+    &__body{
+      padding: 1rem 0rem 1rem 1rem;
+    }
   }
   .body {
     display: block;
@@ -29,6 +40,7 @@ $desktop: 1440px;
   .body__right {
     width: auto;
   }
+  
 }
 
 @media screen and (min-width: $mobile) and (max-width: $tablet) {
@@ -40,6 +52,9 @@ $desktop: 1440px;
   .header {
     display: block;
     padding-top: 2rem;
+    &__body{
+      padding: 1.25rem 0rem 1.25rem 1.25rem;
+    }
   }
   .body {
     display: block;
