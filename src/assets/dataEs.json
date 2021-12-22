@@ -37,7 +37,8 @@
   },
   "mechatronics": {
     "experience": {
-      "title": "Trabajo terminal: Diseño de un sillón electrónico para estación de trabajo dental.",
+      "title": "Experiencia",
+      "subtitle": "Trabajo terminal: Diseño de un sillón electrónico para estación de trabajo dental.",
       "description":"Diseño y simulación del prototipo de un sillón electrónico de tres grados de libertad para estación de trabajo dental empleando la metodología VDI 2206 de diseño de sistemas mecatrónicos. ",
       "company":"UPIITA I.P.N",
       "dateStart":"2021",
@@ -113,7 +114,8 @@
     "Aplicado","Observador","Autodidacta","Gestión del tiempo", "Colaboración en equipos", "Aprendizaje rápido", "Flexibilidad y adaptación al cambio", "Actitud Positiva", "Perseverante"
   ],
   "education": {
-    "title": "Ing. Mecatronica",
+    "subtitle": "Formacion",
+    "title": "Ingeniería mecatronica",
     "institution": "UPIITA I.P.N",
     "dateStart":"Marzo 2015",
     "dateEnd":"En curso",

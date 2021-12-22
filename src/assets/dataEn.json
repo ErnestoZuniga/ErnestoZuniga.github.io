@@ -3,7 +3,7 @@
     "experience": {
       "title": "Experience",
       "position": "FrontEnd Developer (Freelance).",
-      "description": "Development of components and functionalities, consultation and requests to APIs and correction of errors of a cryptocurrency ATM system, developed in Electron and React.",
+      "description": "Development of components and functionalities, consultation and requests to APIs and correction of errors and bugs of a cryptocurrency ATM system, developed in Electron and React.",
       "company": "Krydex",
       "dateStart": "March 2021",
       "dateEnd": "July 2021",
@@ -37,7 +37,8 @@
   },
   "mechatronics": {
     "experience": {
-      "title": "Terminal work: Design of an electronic chair for a dental workstation.",
+     "title": "Experience",
+      "subtitle": "Terminal work: Design of an electronic chair for a dental workstation.",
       "description": "Design and simulation of the prototype of an electronic chair with three degrees of freedom for a dental workstation using the VDI 2206 methodology for the design of mechatronic systems.",
       "company": "UPIITA I.P.N",
       "dateStart": "2021",
@@ -45,14 +46,14 @@
       "workPlace": "CDMX",
       "activities": [
         "Electronic design and simulation.",
-        "Design and mechanical simulation",
+        "Mechanical design and simulation.",
         "Structural analysis",
         "Materials selection",
         "Component selection",
-        "Conditioning of sensors"
+        "Sensor signal conditioning"
       ]
     },
-    "projects": [
+    "proyects": [
       {
         "title": "Projects",
         "project": "Artificial vision and robotic control using Labview",
@@ -110,14 +111,15 @@
     "description": "\" Trust yourself. Create the type of person with whom you will be happy to live your whole life. Make the most of yourself by stoking the tiny inner sparks of flaming possibilities of achievement. \" —Golda Meir"
   },
   "softSkills": [
-    "Applied", "Observer", "Self-taught", "Time management", "Team collaboration", "Quick learning", "Flexibility and adaptation to change", "Positive attitude", "Persevering"
+    "Applied", "Observer", "Self-taught", "Time management", "Team collaboration", "Fast learner", "Adaptable", "Optimistic", "Persistent"
   ],
   "education": {
-    "title": "Ing. Mechatronica",
+    "title": "Formation",
+    "subtitle": "Bachelor of Mechatronics Engineering",
     "institution": "UPIITA I.P.N",
     "dateStart": "March 2015",
     "dateEnd": "In progress",
-    "description": "Degree work in progress. (Final work, Degree thesis.)"
+    "description": "Final year project in progress."
   },
   "lenguages": {
     "title": "Languages",

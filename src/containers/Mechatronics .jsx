@@ -1,20 +1,36 @@
-import React from "react";
+import React, { useState,useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 
 import Experience from "../components/Experience";
 import Proyects from "../components/Proyects";
 import LifePhilosophy from "../components/LifePhilosophy";
 import Skills from "../components/Skills";
 import Card from "../components/Card";
-import data from "../assets/data.json";
+import dataEn from "../assets/dataEn.json";
+import dataEs from "../assets/dataEs.json";
 import styles from "../assets/styles/desktop/desktop.module.scss";
 
 const Mechatronics = () => {
+  //const [localStorageLan,saveLocalStorageLan] = useLocalStorage('LANG',navigator.language)
+  const [searchParams] = useSearchParams();
+  const [data, setData] = useState(dataEn);
+
+  useEffect(() => {
+    const lan = searchParams.get("lan");
+    const regexEs = new RegExp(/^es\b/, "i");
+    if (regexEs.test(lan)) {
+      setData(dataEs);
+    } else {
+      setData(dataEn);
+    }
+  }, [searchParams]);
+
   return (
     <div className={styles.body}>
       <div className={styles["body__left"]}>
         <Experience
-          h2={"Experiencia"}
-          h3={data.mechatronics.experience.title}
+          h2={data.mechatronics.experience.title}
+          h3={data.mechatronics.experience.subtitle}
           h4={data.mechatronics.experience.company}
           dateStart={data.mechatronics.experience.dateStart}
           dateEnd={data.mechatronics.experience.dateEnd}
@@ -47,10 +63,7 @@ const Mechatronics = () => {
           h2={data.lifePhilosophy.title}
           description={data.lifePhilosophy.description}
         />
-        <Skills
-          h2={'Idiomas'}
-          ratedSkills={data.lenguages.ratedSkills}          
-        />
+        <Skills h2={data.lenguages.title} ratedSkills={data.lenguages.ratedSkills} />
         <Skills
           h2={"Hard Skills"}
           ratedSkills={data.mechatronics.skills.ratedSkills}
@@ -60,24 +73,19 @@ const Mechatronics = () => {
           skills={data.mechatronics.skills.unratedSkills}
           divider={true}
         />
-        <Skills 
-        skills={data.mechatronics.skills.methodology}
-        />
-        <Skills
-          h2={'Soft Skills'}
-          skills={data.softSkills}
-        />
+        <Skills skills={data.mechatronics.skills.methodology} />
+        <Skills h2={"Soft Skills"} skills={data.softSkills} />
         <Card
-          h2={'Educacion'}
-          h3={data.education.title}
+          h2={data.education.title}
+          h3={data.education.subtitle}
           h4={data.education.institution}
           dateStart={data.education.dateStart}
           dateEnd={data.education.dateEnd}
-          description={data.education.description} 
+          description={data.education.description}
         />
       </div>
     </div>
   );
 };
 
-export default Mechatronics; 
+export default Mechatronics;

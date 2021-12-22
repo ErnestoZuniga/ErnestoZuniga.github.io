@@ -20,11 +20,8 @@ const App = () => {
       <Layout>
         <Switch>
           <Route exact={true} path="/" element={<All/>} />
-          <Route path="/en" element={<FrontEnd />}>
-            <Route path=':frontend' element={<FrontEnd lan={'en'} />} />
-          </Route>
-          <Route path="/es" element={<FrontEnd />}>
-            <Route path=':frontend' element={<FrontEnd lan={'es'} />} />
+          <Route exact={true} path="/frontend" element={<FrontEnd/>}>\
+            { /*<Route path=':lan' element={<FrontEnd />} />*/}
           </Route>
           <Route exact={true} path="/mechatronics" element={<Mechatronics/>} />
           <Route exact={true} path="*" element={<NotFound/>} />

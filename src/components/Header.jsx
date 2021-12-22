@@ -1,11 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from "react-router-dom";
+
 
 import ContactInfo from './ContactInfo.jsx'
 import styles from '../assets/styles/desktop/desktop.module.scss'
+import useLocalStorage from '../services/customHooks/useLocalStorage'
 
 
 const Header = () => {
+  /*const [localStorageLan,saveLocalStorageLan] = useLocalStorage('LANG',navigator.language)*/
+  const [searchParams, setSearchParams] = useSearchParams({});
+
+  const HandleLanButton= (lang) => {
+    setSearchParams({
+      lan: lang
+    })
+    /*saveLocalStorageLan(lang)*/
+  }
 
   return (
     <div className={styles['header']}>
@@ -19,8 +30,8 @@ const Header = () => {
         <h1 className={styles['header__title']}>Luis Ernesto Zu&#241;iga Ontiveros</h1>
 
         <section className={styles['header__positions']}>
-          <Link className={styles['header__link-blue']}to='/FrontEnd'>FrontEnd Developer</Link>
-          <Link className={styles['header__link-blue']}to='/Mechatronics'>Mechatronics Engineering</Link>
+          <Link className={styles['header__link-blue']}to='/frontend'>FrontEnd Developer</Link>
+          <Link className={styles['header__link-blue']}to='/mechatronics'>Mechatronics Engineering</Link>
           <Link className={styles['header__link-blue']}to='/'>All</Link>
         </section>
 
@@ -36,8 +47,14 @@ const Header = () => {
 
 
         <section className={styles['header__bttns-container']}>
-          <button> Eng </button>
-          <button> Esp </button>
+          <button onClick ={ () => {
+            HandleLanButton('es-Es')
+          }
+          }> Esp </button>
+          <button onClick ={ () => {
+            HandleLanButton('en-Us')
+          }
+          }> Eng </button>
         </section>
 
 
