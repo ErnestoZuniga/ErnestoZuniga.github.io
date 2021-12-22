@@ -53,7 +53,7 @@
         "Sensor signal conditioning"
       ]
     },
-    "proyects": [
+    "projects": [
       {
         "title": "Projects",
         "project": "Artificial vision and robotic control using Labview",
@@ -149,7 +149,7 @@
           "rate": "2"
         },
         {
-          "ratedSkills": "C #",
+          "ratedSkills": "C#",
           "rate": "2"
         }
       ],

@@ -41,7 +41,7 @@ const All = () => {
           divider={true}
         />
         <Experience
-          h3={data.mechatronics.experience.title}
+          h3={data.mechatronics.experience.subtitle}
           h4={data.mechatronics.experience.company}
           dateStart={data.mechatronics.experience.dateStart}
           dateEnd={data.mechatronics.experience.dateEnd}
@@ -50,22 +50,22 @@ const All = () => {
           activities={data.mechatronics.experience.activities}
         />
         <Proyects
-          h2={data.mechatronics.proyects[0].title}
-          h3={data.mechatronics.proyects[0].proyect}
-          h4={data.mechatronics.proyects[0].institution}
-          description={data.mechatronics.proyects[0].description}
+          h2={data.mechatronics.projects[0].title}
+          h3={data.mechatronics.projects[0].project}
+          h4={data.mechatronics.projects[0].institution}
+          description={data.mechatronics.projects[0].description}
           divider={true}
         />
         <Proyects
-          h3={data.mechatronics.proyects[1].proyect}
-          h4={data.mechatronics.proyects[1].institution}
-          description={data.mechatronics.proyects[1].description}
+          h3={data.mechatronics.projects[1].project}
+          h4={data.mechatronics.projects[1].institution}
+          description={data.mechatronics.projects[1].description}
           divider={true}
         />
         <Proyects
-          h3={data.mechatronics.proyects[2].proyect}
-          h4={data.mechatronics.proyects[2].institution}
-          description={data.mechatronics.proyects[2].description}
+          h3={data.mechatronics.projects[2].project}
+          h4={data.mechatronics.projects[2].institution}
+          description={data.mechatronics.projects[2].description}
           //divider={true}
         />
       </div>

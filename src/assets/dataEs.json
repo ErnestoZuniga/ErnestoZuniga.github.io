@@ -53,20 +53,20 @@
         "Acondicionamiento de sensores"
       ]
     },
-    "proyects": [
+    "projects": [
       {
         "title": "Proyectos",
-        "proyect": "Visión artificial y control robótico empleando Labview",
+        "project": "Visión artificial y control robótico empleando Labview",
         "institution": "UPIITA I.P.N",
         "description": "Control en lazo cerrado de un brazo robótico con servomotores de 3 grados de libertad, usando el módulo de visión artificial de Labview."
       },
       {
-        "proyect": "Control P.I.D",
+        "project": "Control P.I.D",
         "institution": "UPIITA I.P.N",
         "description": "Control P.I.D con electrónica analógica para controlar la posición de un motor de C.D en el que actúa la gravedad."
       },
       {
-        "proyect": "Animación de la cinemática de un brazo robótico",
+        "project": "Animación de la cinemática de un brazo robótico",
         "institution": "UPIITA I.P.N",
         "description": "Aplicación de escritorio realizada en Java para visualizar y controlar mediante un mando de videojuego la cinemática de un sistema articulado de dos grados de libertad planar para representar el movimiento de un brazo robótico simple. "
       }
