@@ -6,7 +6,7 @@
 
 ## About me
 
-Nothing much to say, I'm a senior engineering student and also a meant to be web full stack developer by hobby and passion. Know more about me by clicking  [here](https://ernestozuniga.github.io/).
+Nothing much to say, I'm a senior engineering student and also a meant to become web full stack developer by hobby and passion. Know more about me by clicking  [here](https://ernestozuniga.github.io/).
 
 ## Tech
 
