@@ -21,7 +21,7 @@ const App = () => {
         <Switch>
           <Route exact={true} path="/" element={<All/>} />
           <Route exact={true} path="/frontend" element={<FrontEnd/>}>\
-            { /*<Route path=':lan' element={<FrontEnd />} />*/}
+            { /*<Route path=':lang' element={<FrontEnd />} />*/}
           </Route>
           <Route exact={true} path="/mechatronics" element={<Mechatronics/>} />
           <Route exact={true} path="*" element={<NotFound/>} />

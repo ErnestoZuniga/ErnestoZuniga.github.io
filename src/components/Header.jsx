@@ -8,14 +8,14 @@ import useLocalStorage from '../services/customHooks/useLocalStorage'
 
 
 const Header = () => {
-  /*const [localStorageLan,saveLocalStorageLan] = useLocalStorage('LANG',navigator.language)*/
-  const [searchParams, setSearchParams] = useSearchParams({});
+  //const [lSLang,saveLSLang] = useLocalStorage('LANG',navigator.language)
+  const [searchParams, setSearchParams] = useSearchParams();
 
   const HandleLanButton= (lang) => {
+    //saveLSLang(lang)
     setSearchParams({
-      lan: lang
+      lang: lang
     })
-    /*saveLocalStorageLan(lang)*/
   }
 
   return (

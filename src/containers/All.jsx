@@ -9,19 +9,30 @@ import Card from "../components/Card";
 import dataEn from "../assets/dataEn.json";
 import dataEs from "../assets/dataEs.json";
 import styles from "../assets/styles/desktop/desktop.module.scss";
+import useLocalStorage from '../services/customHooks/useLocalStorage'
 
 const All = () => {
-  //const [localStorageLan,saveLocalStorageLan] = useLocalStorage('LANG',navigator.language)
-  const [searchParams] = useSearchParams();
+  //const [lSLang,saveLSLang] = useLocalStorage('LANG',navigator.language)
+  const [searchParams, setSearchParams] = useSearchParams({});
   const [data, setData] = useState(dataEn);
 
   useEffect(() => {
-    const lan = searchParams.get("lan");
+    const lan = searchParams.get("lang");
     const regexEs = new RegExp(/^es\b/, "i");
+    //const lan = lSLang;
+    console.log(lan)
+    console.log(regexEs.test(lan))
+
     if (regexEs.test(lan)) {
       setData(dataEs);
+      setSearchParams({
+        lang: lan
+      })
     } else {
       setData(dataEn);
+      setSearchParams({
+        lang: lan
+      })
     }
   }, [searchParams]);
 

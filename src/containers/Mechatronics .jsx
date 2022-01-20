@@ -16,7 +16,7 @@ const Mechatronics = () => {
   const [data, setData] = useState(dataEn);
 
   useEffect(() => {
-    const lan = searchParams.get("lan");
+    const lan = searchParams.get("lang");
     const regexEs = new RegExp(/^es\b/, "i");
     if (regexEs.test(lan)) {
       setData(dataEs);
