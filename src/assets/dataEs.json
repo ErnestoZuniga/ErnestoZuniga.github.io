@@ -114,12 +114,12 @@
     "Aplicado","Observador","Autodidacta","Gestión del tiempo", "Colaboración en equipos", "Aprendizaje rápido", "Flexibilidad y adaptación al cambio", "Actitud Positiva", "Perseverante"
   ],
   "education": {
-    "subtitle": "Formacion",
-    "title": "Ingeniería mecatronica",
+    "title": "Educacion",
+    "subtitle": "Ingenieria en Mecatronica",
     "institution": "UPIITA I.P.N",
     "dateStart":"Marzo 2015",
-    "dateEnd":"En curso",
-    "description": "Trabajo de titulacion en curso. (Trabajo terminal,Tesis de titulacion.)"
+    "dateEnd":"Diciembre 2021",
+    "description": "Tramites de titulacion en curso"
   },
   "lenguages" : {
     "title": "Idiomas",

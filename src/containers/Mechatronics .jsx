@@ -63,6 +63,14 @@ const Mechatronics = () => {
           h2={data.lifePhilosophy.title}
           description={data.lifePhilosophy.description}
         />
+        <Card
+          h2={data.education.title}
+          h3={data.education.subtitle}
+          h4={data.education.institution}
+          dateStart={data.education.dateStart}
+          dateEnd={data.education.dateEnd}
+          description={data.education.description}
+        />
         <Skills h2={data.lenguages.title} ratedSkills={data.lenguages.ratedSkills} />
         <Skills
           h2={"Hard Skills"}
@@ -75,14 +83,6 @@ const Mechatronics = () => {
         />
         <Skills skills={data.mechatronics.skills.methodology} />
         <Skills h2={"Soft Skills"} skills={data.softSkills} />
-        <Card
-          h2={data.education.title}
-          h3={data.education.subtitle}
-          h4={data.education.institution}
-          dateStart={data.education.dateStart}
-          dateEnd={data.education.dateEnd}
-          description={data.education.description}
-        />
       </div>
     </div>
   );
