@@ -11,7 +11,7 @@ import {
 // import NotFound from "../containers/NotFound"
 // import Layout from "../components/Layout";
 // import Playground from "../containers/Playground";
-import HomePage from "../pages/HomePage";
+import HomePage from "../pages/HomePage/HomePage";
 
 
 
