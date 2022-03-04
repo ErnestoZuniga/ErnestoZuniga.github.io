@@ -24,13 +24,6 @@ const PersonalInfo = (props) => {
   const TemplateInfo = () => {
     return(
       <div className={iconContainer}>
-        { email ? 
-          <div className={iconPrepend}> 
-            <bsIcons.BsFillEnvelopeFill className={iconFormat}/> 
-            <p>{email}</p> 
-          </div>
-          : <></>
-        }
         { tel ?
           <div className={iconPrepend}> 
             <bsIcons.BsFillTelephoneFill className={iconFormat}/> 
@@ -41,7 +34,14 @@ const PersonalInfo = (props) => {
         { addres ?
           <div className={iconPrepend}> 
             <bsIcons.BsFillHouseFill className={iconFormat}/> 
-            <p>{tel}</p> 
+            <p>{addres}</p> 
+          </div>
+          : <></>
+        }
+        { email ? 
+          <div className={iconPrepend}> 
+            <bsIcons.BsFillEnvelopeFill className={iconFormat}/> 
+            <p>{email}</p> 
           </div>
           : <></>
         }
