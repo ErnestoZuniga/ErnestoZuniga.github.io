@@ -1,0 +1,163 @@
+{
+  "frontEnd": {
+    "experience": {
+      "title": "Experiencia",
+      "position": "FrontEnd Developer (Freelance).",
+      "description":"Desarrollo de componentes y funcionalidades, consulta y peticiones a APIs y corrección de errores de un sistema de cajeros de criptomonedas, desarrollado en Electron y React.",
+      "company":"Krydex",
+      "dateStart":"Agosto 2020",
+      "dateEnd":"Julio 2021",
+      "workPlace":"CDMX Remoto",
+      "activities": [
+        "Desarrollo de páginas",
+        "Desarrollo de componentes.",
+        "Consumo de APIs.",
+        "Refactorización de código.",
+        "Manejo de dependencias con NPM."
+      ]
+    },
+    "skills": {
+      "title": "Hardskills",
+      "ratedSkills": [ 
+        {
+          "ratedSkills":  "Javascript",
+          "rate": "4"
+        }, 
+        {
+          "ratedSkills":  "HTML",
+          "rate": "3.5"
+        },
+        {
+          "ratedSkills":  "CSS",
+          "rate": "3.5"
+        }
+      ],
+      "unratedSkills": [ "NodeJs", "NPM", "React", "Bash Shell", "Git", "Github", "Responsive Desing", "Bootstrap", "SASS"]
+    }
+  },
+  "mechatronics": {
+    "experience": {
+      "title": "Experiencia",
+      "subtitle": "Trabajo terminal: Diseño de un sillón electrónico para estación de trabajo dental.",
+      "description":"Diseño y simulación del prototipo de un sillón electrónico de tres grados de libertad para estación de trabajo dental empleando la metodología VDI 2206 de diseño de sistemas mecatrónicos. ",
+      "company":"UPIITA I.P.N",
+      "dateStart":"2021",
+      "dateEnd":"En curso",
+      "workPlace":"CDMX",
+      "activities": [
+        "Diseño y simulación electrónica.",
+        "Diseño y simulación mecánica",
+        "Análisis estructural",
+        "Selección de materiales",
+        "Selección de componentes",
+        "Acondicionamiento de sensores"
+      ]
+    },
+    "projects": [
+      {
+        "title": "Proyectos",
+        "project": "Visión artificial y control robótico empleando Labview",
+        "institution": "UPIITA I.P.N",
+        "description": "Control en lazo cerrado de un brazo robótico con servomotores de 3 grados de libertad, usando el módulo de visión artificial de Labview."
+      },
+      {
+        "project": "Control P.I.D",
+        "institution": "UPIITA I.P.N",
+        "description": "Control P.I.D con electrónica analógica para controlar la posición de un motor de C.D en el que actúa la gravedad."
+      },
+      {
+        "project": "Animación de la cinemática de un brazo robótico",
+        "institution": "UPIITA I.P.N",
+        "description": "Aplicación de escritorio realizada en Java para visualizar y controlar mediante un mando de videojuego la cinemática de un sistema articulado de dos grados de libertad planar para representar el movimiento de un brazo robótico simple. "
+      }
+    ],
+    "skills": {
+      "title": "Hardskills",
+      "ratedSkills": [ 
+        {
+          "ratedSkills":  "Matlab",
+          "rate": "4"
+        }, 
+        {
+          "ratedSkills":  "Solidworks",
+          "rate": "3"
+        },
+        {
+          "ratedSkills":  "NI Labview",
+          "rate": "3"
+        },
+        {
+          "ratedSkills":  "NI Multisim",
+           "rate": "3"
+        }, 
+        {
+          "ratedSkills":  "Catia",
+          "rate": "2"
+        },
+        {
+          "ratedSkills":  "AutoCad",
+          "rate": "2"
+        }
+      ],
+      "unratedSkills": [ "Diseño CAD/CAM", "Diseño electrónico", "Ingeniería Asistida Por Computadora", "Ingeniería de control", "Control Difuso", "Análisis estructural", "Neumática e Hidráulica", "Acondicionamiento de sensores", "Redes Neuronales", "Procesos de manufactura"
+      ],
+      "methodology": [
+        "VDI 2206: Diseño de sistemas Mecatrónicos","Scrum"
+      ]
+    }
+  },
+  "lifePhilosophy": {
+    "title": "Filosofía de vida",
+    "description": " \"Confía en ti mismo. Crea el tipo de persona con la cual estaras feliz de vivir toda tu vida. Aprovecha el máximo de ti atizando las diminutas chispas interiores de posibilidades en llamas de logros\" —Golda Meir "
+  },
+  "softSkills": [
+    "Aplicado","Observador","Autodidacta","Gestión del tiempo", "Colaboración en equipos", "Aprendizaje rápido", "Flexibilidad y adaptación al cambio", "Actitud Positiva", "Perseverante"
+  ],
+  "education": {
+    "title": "Educacion",
+    "subtitle": "Ingenieria en Mecatronica",
+    "institution": "UPIITA I.P.N",
+    "dateStart":"Marzo 2015",
+    "dateEnd":"Diciembre 2021",
+    "description": "Tramites de titulacion en curso"
+  },
+  "lenguages" : {
+    "title": "Idiomas",
+    "ratedSkills": [
+      {
+        "ratedSkills":  "Español",
+        "rate": "5"
+      },
+      {
+        "ratedSkills":  "Ingles",
+        "rate": "4"
+      },{
+        "ratedSkills":  "Japones",
+        "rate": "1"
+      }
+    ]
+  },
+  "others": {
+    "skills": {
+      "ratedSkills": [
+        {
+          "ratedSkills":  "Python",
+          "rate": "2.5"
+        },
+        {
+          "ratedSkills":  "Java",
+          "rate": "2"
+        },
+        {
+          "ratedSkills":  "C#",
+          "rate": "2"
+        }
+      ],
+      "unratedSkills": [
+        "Django", "Express Js", "Passport Js","APIs: REST","MongoDB","Postman", "WSL", "Bash Shell", "Linux"
+      ]
+    }
+  }
+}
+
+

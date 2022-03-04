@@ -1,0 +1,59 @@
+$color-lighter: #a2a8d3;
+$color-light: #005c99;
+$color-medium: #005282;
+$color-dark: #00394d;
+$color-strong: #00204a;
+//$breakpoints: ('phone': 640px, 'tablet': 768px, 'desktop': 1024px) !default;
+$mobile: 640px;
+$tablet: 1024px;
+$desktop: 1440px;
+
+.container {
+  &__row {
+    display: flex;
+    flex-direction: row;
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.blue {
+  font-weight: bold;
+  color: $color-light;
+}
+
+@mixin card_h1 {
+  text-transform: uppercase;
+  text-align: initial;
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+
+@mixin link-style {
+  text-decoration: none;
+  padding-right: 1rem;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+@mixin bttns-container {
+  @extend .container__row;
+  padding: 1rem 0 0rem 0;
+
+  button {
+    display: block;
+    text-transform: uppercase;
+    background-color: $color-medium;
+    border: 2px solid $color-strong;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 7px 20px;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+}

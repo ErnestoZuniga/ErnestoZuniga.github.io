@@ -1,0 +1,35 @@
+.header {
+  @extend .container__row;
+  &__figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      height: 15rem;
+      width: auto;
+    }
+  }
+  &__content {
+    padding: 2rem 0rem 2rem 1rem;
+    @extend .container__column;
+    justify-content: space-evenly;
+    h1 {
+      @include card_h1;
+    }
+  }
+  &__links{
+    padding: 1em 0rem 1rem 0rem;
+  }
+}
+
+.link {
+  @include link-style;
+  @extend .blue;
+  &:hover{
+    color:$color-light;
+  }
+}
+
+.bttns-container {
+  @include bttns-container;
+}

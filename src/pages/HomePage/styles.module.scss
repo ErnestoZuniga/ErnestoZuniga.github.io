@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  @extend .with-border
+}
+
+.with-border {
+  border: dashed 3px black;
+}
+
+.with-bg {
+  background-color: red;
+}
