@@ -72,8 +72,8 @@ yarn-error.log*
 # Web P
 *.webp
 
-# Portable Network Graphics
-*.png
+# # Portable Network Graphics
+# *.png
 
 # Animated Portable Network Graphics
 *.apng
