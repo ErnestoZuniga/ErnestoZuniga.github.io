@@ -1,26 +1,5 @@
 @import "./recurrent.module";
 
-.icon {
-  &__prepend {
-    @extend .container__row;
-    p {
-      margin: 0;
-    }
-    padding-right: 1.5rem;
-  }
-  &__format {
-    color: $color-light;
-    margin-right: 0.1rem;
-  }
-  &__container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: normal;
-    padding: 0 10% 1% 0;
-    align-self: auto;
-  }
-}
-
 .link {
   @include link-style;
   color: black;

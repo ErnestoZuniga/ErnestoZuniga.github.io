@@ -1,0 +1,28 @@
+@import "./recurrent.module";
+
+.container {
+  display: block;
+  h2{
+    border-bottom: solid;
+    text-transform: uppercase;
+    color: $color-dark;
+  }
+   h3 {
+    text-transform: capitalize;
+    font-size: larger;
+  }
+  h4 {
+    color: $color-light;
+    font-size: medium;
+  }
+  &__philos {
+    color: $color-light;
+    font-style: italic;
+  }
+}
+
+.with-divider{
+  border-bottom: dashed lightgrey 0.15rem;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
+}
