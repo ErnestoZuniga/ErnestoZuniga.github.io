@@ -11,6 +11,7 @@ import {
 // import NotFound from "../containers/NotFound"
 // import Layout from "../components/Layout";
 // import Playground from "../containers/Playground";
+import Layout from "../layouts/Layout";
 import HomePage from "../pages/HomePage/HomePage";
 
 
@@ -31,9 +32,11 @@ const App = () => {
     //   </Layout>
     // </Router>
     <Router>
-      <Switch>
-        <Route exact path="/" element={<HomePage/>} /> 
-      </Switch>
+      <Layout>
+        <Switch>
+          <Route exact path="/" element={<HomePage/>} /> 
+        </Switch>
+      </Layout>
     </Router>
   );
 }

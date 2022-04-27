@@ -12,7 +12,7 @@ const Card = (props) => {
   const prepend = card["icon__prepend"];
   const iconFormat = card["icon__format"];
   const { h1, h2, h3, h4, dateStart, dateEnd, place, description, activities } =
-    props.data;
+    (props.data ? props.data : props);
 
   const Titles = () => {
     return (
