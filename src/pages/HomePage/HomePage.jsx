@@ -4,7 +4,7 @@ import Card from "../../components/Card/Card";
 import Skills from "../../components/Skills/Skills";
 
 import dataEn from "../../assets/dummies/dataEn.json";
-import dataEs from "../../assets/dummies/dataEs.json";
+// import dataEs from "../../assets/dummies/dataEs.json";
 import layout from '../../assets/styles/layout.module.scss'
 import styles from '../../assets/styles/styles.module.scss';
 
@@ -118,6 +118,54 @@ const HomePage = () => {
     );
   }
 
+  const Lenguages = () => {
+    return(
+      <Skills 
+        h2={data.lenguages.title}
+        data={data.lenguages.ratedSkills}   
+      />
+    )
+  }
+
+  const HardSkills = () => {
+    return(
+      <>
+        <Skills
+          h2={"Hard Skills"}
+          data={data.frontEnd.skills.ratedSkills}
+          divider
+        />
+        <Skills
+          data={data.others.skills.ratedSkills}
+          divider={true}
+        />
+        <Skills
+          data={data.mechatronics.skills.ratedSkills}
+          divider={true}
+        />
+        <Skills
+          unordered
+          data={data.frontEnd.skills.unratedSkills}
+          divider={true}
+        />
+        <Skills
+          unordered
+          data={data.others.skills.unratedSkills}
+          divider={true}
+        />
+        <Skills
+          unordered
+          data={data.mechatronics.skills.unratedSkills}
+          divider={true}
+        />
+        <Skills 
+          unordered
+          data={data.mechatronics.skills.methodology}
+        />
+      </>
+    )
+  }
+
   return (
     <>
     <div className={bodyleft}>
@@ -128,10 +176,8 @@ const HomePage = () => {
     <div className={bodyRight}>
       <LifePhilosophy />
       <Formation />
-      <Skills 
-        h2={'Wololo'}
-        ratedSkills={5}
-      /> {/* lenguages */}
+      <Lenguages/>
+      <HardSkills/>
     </div>
     </>
     

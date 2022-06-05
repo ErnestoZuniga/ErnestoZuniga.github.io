@@ -26,3 +26,19 @@
   padding-bottom: 0.25rem;
   margin-bottom: 0.25rem;
 }
+
+.unordered {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0;
+  font-size: small;
+  p {
+    margin: 0.1rem;
+    border: groove 2px;
+    padding: 0.3rem;
+    border-radius: 8px;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
