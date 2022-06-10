@@ -11,8 +11,7 @@ import {
 // import NotFound from "../containers/NotFound"
 // import Layout from "../components/Layout";
 // import Playground from "../containers/Playground";
-import Layout from "../layouts/Layout";
-import HomePage from "../pages/HomePage/HomePage";
+import {FrontEndPage, HomePage, MechatronicsPage, Layout} from '../config/resources';
 
 
 
@@ -35,6 +34,8 @@ const App = () => {
       <Layout>
         <Switch>
           <Route exact path="/" element={<HomePage/>} /> 
+          <Route exact path="/FrontEnd" element={<FrontEndPage/>} /> 
+          <Route exact path="/Mechatronics" element={<MechatronicsPage/>} /> 
         </Switch>
       </Layout>
     </Router>

@@ -1,30 +1,19 @@
 import React from "react";
 
-import { dataEn, dataEs, Card, Skills, layout, styles } from "../../config/resources";
+import {
+  dataEn,
+  dataEs,
+  Card,
+  Skills,
+  layout,
+  styles,
+} from "../../config/resources";
 
-const HomePage = () => {
+const MechatronicsPage = () => {
   const data = dataEn;
   const bodyRight = layout["body__right"];
   const bodyleft = layout["body__left"];
   const philos = styles["philos"];
-
-  const ExperienceFrontEnd = () => {
-    return (
-      <Card
-        divider
-        data={{
-          h2: data.frontEnd.experience.title,
-          h3: data.frontEnd.experience.position,
-          h4: data.frontEnd.experience.company,
-          dateStart: data.frontEnd.experience.dateStart,
-          dateEnd: data.frontEnd.experience.dateEnd,
-          place: data.frontEnd.experience.workPlace,
-          description: data.frontEnd.experience.description,
-          activities: data.frontEnd.experience.activities,
-        }}
-      />
-    );
-  };
 
   const ExperienceMechatronics = () => {
     return (
@@ -124,18 +113,8 @@ const HomePage = () => {
   const HardSkills = () => {
     return (
       <>
-        <Skills
-          h2={"Hard Skills"}
-          data={data.frontEnd.skills.ratedSkills}
-          divider
-        />
         <Skills data={data.others.skills.ratedSkills} divider={true} />
         <Skills data={data.mechatronics.skills.ratedSkills} divider={true} />
-        <Skills
-          unordered
-          data={data.frontEnd.skills.unratedSkills}
-          divider={true}
-        />
         <Skills
           unordered
           data={data.others.skills.unratedSkills}
@@ -154,7 +133,6 @@ const HomePage = () => {
   return (
     <>
       <div className={bodyleft}>
-        <ExperienceFrontEnd />
         <ExperienceMechatronics />
         <ProjectsMechatronics />
       </div>
@@ -168,4 +146,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default MechatronicsPage;

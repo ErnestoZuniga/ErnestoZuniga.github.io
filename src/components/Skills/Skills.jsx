@@ -1,8 +1,9 @@
 import React from "react";
 import classNames from "classnames";
 
-import styles from "../../assets/styles/styles.module.scss";
-import cardStyles from "../../assets/styles/card.module.scss";
+// import styles from "../../assets/styles/styles.module.scss";
+// import cardStyles from "../../assets/styles/card.module.scss";
+import {styles, card as cardStyles } from "../../config/resources";
 
 import {
   BsCircleFill as CircleFill,
