@@ -2,6 +2,8 @@ import React from 'react';
 import { Link, useSearchParams } from "react-router-dom";
 
 
+
+
 import ContactInfo from './ContactInfo.jsx'
 import styles from '../assets/styles/desktop/desktop.module.scss'
 import useLocalStorage from '../services/customHooks/useLocalStorage'
@@ -9,13 +11,14 @@ import useLocalStorage from '../services/customHooks/useLocalStorage'
 
 const Header = () => {
   //const [lSLang,saveLSLang] = useLocalStorage('LANG',navigator.language)
-  const [searchParams, setSearchParams] = useSearchParams();
+  // const [searchParams, setSearchParams] = useSearchParams();
 
   const HandleLanButton= (lang) => {
     //saveLSLang(lang)
-    setSearchParams({
-      lang: lang
-    })
+    // setSearchParams({
+    //   lang: lang
+    // })
+    console.log('Language: Something')
   }
 
   return (

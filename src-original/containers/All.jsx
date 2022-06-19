@@ -9,7 +9,7 @@ import Card from "../components/Card";
 import dataEn from "../assets/dataEn.json";
 import dataEs from "../assets/dataEs.json";
 import styles from "../assets/styles/desktop/desktop.module.scss";
-import useLocalStorage from '../services/customHooks/useLocalStorage'
+// import useLocalStorage from '../services/customHooks/useLocalStorage'
 
 const All = () => {
   //const [lSLang,saveLSLang] = useLocalStorage('LANG',navigator.language)
@@ -20,8 +20,8 @@ const All = () => {
     const lan = searchParams.get("lang");
     const regexEs = new RegExp(/^es\b/, "i");
     //const lan = lSLang;
-    console.log(lan)
-    console.log(regexEs.test(lan))
+    // console.log(lan)
+    // console.log(regexEs.test(lan))
 
     if (regexEs.test(lan)) {
       setData(dataEs);
