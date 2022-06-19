@@ -1,6 +1,6 @@
 /* DUMMIES */
 import dataEn from "../assets/dummies/dataEn.json";
-import dataEs from "../assets/dummies/dataEn.json";
+import dataEs from "../assets/dummies/dataEs.json";
 /* COMPONENTS */
 import Layout from "../layouts/Layout";
 import Card from "../components/Card/Card";
