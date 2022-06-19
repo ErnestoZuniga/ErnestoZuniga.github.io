@@ -1,19 +1,21 @@
 import React from "react";
+import { useEffect, useState } from "react";
+import { useSelector, useDispatch  } from "react-redux";
 
-import {
-  dataEn,
-  dataEs,
-  Card,
-  Skills,
-  layout,
-  styles,
-} from "../../config/resources";
+import { dataEn, dataEs, Card, Skills, layout, styles } from "../../config/resources";
 
 const FrontEndPage = () => {
-  const data = dataEn;
+  const [data, setData] = useState(dataEn);
+  const { lan } = useSelector(state => state.languages);
+  const dispatch = useDispatch();
   const bodyRight = layout["body__right"];
   const bodyleft = layout["body__left"];
   const philos = styles["philos"];
+
+  useEffect(() => {   
+    if (lan === 'en-Us') {setData(dataEn)}
+    if(lan === 'es-Es')  {setData(dataEs) }
+  },[lan])
 
   const ExperienceFrontEnd = () => {
     return (

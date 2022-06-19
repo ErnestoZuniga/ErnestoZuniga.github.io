@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, useSearchParams } from "react-router-dom";
+import { useDispatch } from "react-redux";
 
 import classNames from "classnames";
 import Backdrop from '@mui/material/Backdrop';
@@ -7,6 +8,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 
 
 import { PersonalInfo, styles } from "../../config/resources";
+import { updateLan } from "../../redux/slices/languages";
 
 const Header = () => {
   const [open, setOpen] =  React.useState(false);
@@ -14,11 +16,9 @@ const Header = () => {
   const headerFigure = styles["header__figure"];
   const headerContent = styles["header__content"];
   const headerLinks = styles["header__links"];
-  const headerLink = classNames({
-    [styles["link"]]: true,
-    // [ styles['blue']]: true
-  });
+  const headerLink = styles["link"];
   const bttnsContainer = styles["bttns-container"];
+  const dispatch = useDispatch();
 
   const handleToggleBackdrop = () => {
     setOpen(true);
@@ -36,7 +36,9 @@ const Header = () => {
     // setSearchParams({
     //   lang: lang
     // })
-    console.log(lang);
+    // console.log(lang);
+    handleToggleBackdrop();
+    dispatch(updateLan(lang));
   };
 
   return (
@@ -88,16 +90,13 @@ const Header = () => {
               },
             }}
           />
-
           <section className={bttnsContainer}>
             <button
               onClick={() => { HandleLanButton("es-Es") }}
-            > Esp
-            </button>
+            >Esp</button>
             <button
               onClick={() => { HandleLanButton("en-Us") }}
-            > Eng
-            </button>
+            >Eng</button>
           </section>
         </div>
       </div>

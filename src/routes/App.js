@@ -1,17 +1,16 @@
 import React from "react";
+
+import { Provider } from 'react-redux'
+
 import {
   BrowserRouter as Router,
   Routes as Switch,
   Route,
 } from "react-router-dom";
 
-// import FrontEnd from "../containers/FrontEnd"
-// import Mechatronics from "../containers/Mechatronics ";
-// import All from "../containers/All";
-// import NotFound from "../containers/NotFound"
-// import Layout from "../components/Layout";
-// import Playground from "../containers/Playground";
+
 import {FrontEndPage, HomePage, MechatronicsPage, Layout} from '../config/resources';
+import store from '../redux/store/store';
 
 
 
@@ -30,15 +29,17 @@ const App = () => {
     //     </Switch>
     //   </Layout>
     // </Router>
-    <Router>
-      <Layout>
-        <Switch>
-          <Route exact path="/" element={<HomePage/>} /> 
-          <Route exact path="/FrontEnd" element={<FrontEndPage/>} /> 
-          <Route exact path="/Mechatronics" element={<MechatronicsPage/>} /> 
-        </Switch>
-      </Layout>
-    </Router>
+    <Provider store={store}>
+      <Router>
+        <Layout>
+          <Switch>
+            <Route exact path="/" element={<HomePage/>} /> 
+            <Route exact path="/FrontEnd" element={<FrontEndPage/>} /> 
+            <Route exact path="/Mechatronics" element={<MechatronicsPage/>} /> 
+          </Switch>
+        </Layout>
+      </Router>
+    </Provider>
   );
 }
 
