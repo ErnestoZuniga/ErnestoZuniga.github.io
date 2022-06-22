@@ -33,3 +33,57 @@
 .bttns-container {
   @include bttns-container;
 }
+
+@media screen and (min-width: $mobile) and (max-width: $tablet) {
+  .main {
+    width: auto 
+  };
+  .header {
+    display: block;
+    padding-top: 2rem;
+    &__body{
+      padding: 1.25rem 0rem 1.25rem 1.25rem;
+    }
+  }
+  .body {
+    display: block;
+  }
+
+  .body__left{
+    width: auto;
+  }
+  .body__right {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: $tablet) and (max-width: $desktop) {
+  //medium
+  .main {
+    //background-color: blue;
+    width: 80vw;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .header {
+    display: block;
+    padding-top: 2rem;
+    // &__ctt-info {
+    //   display: block;
+    // }
+    &__content{
+      padding: 1rem 0rem 1rem 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: $mobile) and (max-width: $tablet) {
+  .header {
+    display: block;
+    padding-top: 2rem;
+    &__body{
+      padding: 1.25rem 0rem 1.25rem 1.25rem;
+    }
+  }
+}

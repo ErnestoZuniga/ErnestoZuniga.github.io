@@ -32,3 +32,48 @@
 .with-bg {
   background-color: red;
 }
+
+@media screen and (max-width: $mobile) {
+  //very small
+  .main{
+    width: auto;
+    padding: 0 0.75rem 0.5rem 0.75rem;
+  }
+  .body {
+    display: block;
+    &__left {
+      width: auto;
+    }
+  }
+  .body__right {
+    width: auto;
+  }
+  
+}
+
+@media screen and (min-width: $mobile) and (max-width: $tablet) {
+  .main {
+    width: auto 
+  };
+  .body {
+    display: block;
+  }
+  .body__left{
+    width: auto;
+  }
+  .body__right {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: $tablet) and (max-width: $desktop) {
+  .main {
+    width: 80vw;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .main {
+    width: 60vw;
+  }
+}
