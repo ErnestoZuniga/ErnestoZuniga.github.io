@@ -1,12 +1,9 @@
 import React from 'react';
 import { Link, useSearchParams } from "react-router-dom";
 
-
-
-
-import ContactInfo from './ContactInfo.jsx'
-import styles from '../assets/styles/desktop/desktop.module.scss'
-import useLocalStorage from '../services/customHooks/useLocalStorage'
+import ContactInfo from './ContactInfo.jsx';
+import styles from '../assets/styles/desktop/desktop.module.scss';
+// import useLocalStorage from '../services/customHooks/useLocalStorage';
 
 
 const Header = () => {

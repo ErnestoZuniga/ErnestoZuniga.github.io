@@ -5,9 +5,11 @@ import { useSelector, useDispatch  } from "react-redux";
 import { dataEn, dataEs, Card, Skills, layout, styles } from "../../config/resources";
 
 const FrontEndPage = () => {
+  /* REDUX N STATE */
   const [data, setData] = useState(dataEn);
   const { lan } = useSelector(state => state.languages);
   const dispatch = useDispatch();
+  /* STYLES */
   const bodyRight = layout["body__right"];
   const bodyleft = layout["body__left"];
   const philos = styles["philos"];
