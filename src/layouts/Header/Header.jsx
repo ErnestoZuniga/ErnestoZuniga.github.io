@@ -79,7 +79,7 @@ const Header = () => {
           <h1>Luis Ernesto Zu&#241;iga Ontiveros</h1>
           <div className={headerLinks}>
             <Link onClick={() => {handleToggleBackdrop()}} className={headerLink} to="/FrontEnd">
-              FrontEnd Dev
+              FrontEnd Developer
             </Link>
             <Link onClick={() => {handleToggleBackdrop()}} className={headerLink} to="/Mechatronics">
               Mechatronics Engineering
