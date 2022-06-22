@@ -49,7 +49,7 @@ const Header = () => {
     dispatch(loadingFunc()); 
     setTimeout(() => {
       handleCloseBackdrop()
-    }, 750);
+    }, 350);
   }
 
   const handleCloseBackdrop = () => {
@@ -66,7 +66,7 @@ const Header = () => {
     handleToggleBackdrop();
     setTimeout( () => {
       dispatch(updateLan(lang));
-    },250);
+    },200);
   };
 
   return (

@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { useSelector, useDispatch  } from "react-redux";
 
 import { dataEn, dataEs, Card, Skills, layout, styles } from "../../config/resources";
+import {Skeleton, Typography, Stack} from "@mui/material/";
+
 // import { updateLan } from "../../redux/slices/languages";
 const HomePage = () => {
   /* REDUX N STATE */
